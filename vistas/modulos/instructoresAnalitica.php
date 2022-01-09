@@ -20,7 +20,7 @@
                         <div class="container">
                             <div class="row">
                                 <!-- Team member -->
-                                <div class="col-12 col-md-12">
+                                <div class="col-12 col-md-12 mb-4">
                                     <div class="image-flip">
                                         <div class="mainflip flip-0">
                                             <div class="frontside">
@@ -34,7 +34,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="backside mb-2">
+                                            <div class="backside">
                                                 <div class="card">
                                                     <div class="card-body text-center mt-4">
                                                         <h4 class="card-title">Pablo Moreno MVP (Microsoft Most Valuable
