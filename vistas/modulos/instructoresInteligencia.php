@@ -29,29 +29,51 @@
                                                         <h4 class="card-title">Lic. Denis Enrique Guido Rodríguez</h4>
                                                         <h5>Inteligencia de Negocios con SQL Server <br> aplicando Power BI</h5>
                                                         <h5>Administración de Bases de Datos con SQL Server 2019</h5>
-                                                        <a href="https://www.linkedin.com/in/denis-enrique-guido-rodr%C3%ADguez-9b2ba56a/" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                                        <a href="https://www.linkedin.com/in/denis-enrique-guido-rodr%C3%ADguez-9b2ba56a/" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalDennis">VER PERFIL</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="backside mb-2">
-                                                <div class="card">
-                                                    <div class="card-body text-center mt-4">
-                                                        <h4 class="card-title">Lic. Denis Enrique Guido Rodríguez</h4>
-                                                        <p class="card-text">Licenciado en Ciencias de la Computación graduado de la UNAN-MANAGUA con más de
-                                                            15 años de experiencia profesional continuo. Especialistas en Bases de datos (T-SQL,Administración de Bases de Datos, Tuning),
-                                                            Inteligencia de Negocios con SQL Server (SSIS, SSAS, POWERBI), Diseño de Procesos, Integración de Sistemas y Soluciones
-                                                            Informáticas de Gestión Empresarial (Inventario, Facturación, Ctas x Cobrar, Ctas x Pagar, Nómina, Activo Fijo, Cobros en ruta, etc.).
-                                                            Especialista en Programación (.NET, C#, VB.NET) entornos Web (ASP.NET, MVC, MVC Core)..</p>
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item">
-                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/denis-enrique-guido-rodr%C3%ADguez-9b2ba56a/" target="_blank">
-                                                                    <img src="<?= RUTA_DOMAIN ?>vistas/img/mvp.png" alt="">
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="modalDennis" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenteredLabel">Perfil del instructor</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+
+                                                            <div class="backside">
+                                                                <div class="card">
+                                                                    <div class="card-body text-center mt-4">
+                                                                        <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/denis.jpg" alt="card image"></p>
+                                                                        <h4 class="card-title">Lic. Denis Enrique Guido Rodríguez</h4>
+                                                                        <p class="card-text">Licenciado en Ciencias de la Computación graduado de la UNAN-MANAGUA con más de
+                                                                            15 años de experiencia profesional continuo. Especialistas en Bases de datos (T-SQL,Administración de Bases de Datos, Tuning),
+                                                                            Inteligencia de Negocios con SQL Server (SSIS, SSAS, POWERBI), Diseño de Procesos, Integración de Sistemas y Soluciones
+                                                                            Informáticas de Gestión Empresarial (Inventario, Facturación, Ctas x Cobrar, Ctas x Pagar, Nómina, Activo Fijo, Cobros en ruta, etc.).
+                                                                            Especialista en Programación (.NET, C#, VB.NET) entornos Web (ASP.NET, MVC, MVC Core)..</p>
+                                                                        <ul class="list-inline">
+                                                                            <li class="list-inline-item">
+                                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/denis-enrique-guido-rodr%C3%ADguez-9b2ba56a/" target="_blank">
+                                                                                    <i class="fa fa-linkedin"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -67,27 +89,49 @@
 
                                                         <h4 class="card-title">Lic. Jorge Luis Gutiérrez García, M.Sc.,</h4>
                                                         <h5>Hacking Ético y Ciberseguridad</h5>
-                                                        <a href="https://www.linkedin.com/in/jorgegutierrez181176" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                                        <a href="https://www.linkedin.com/in/jorgegutierrez181176" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalJorge">VER PERFIL</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="backside mb-2">
-                                                <div class="card">
-                                                    <div class="card-body text-center mt-4">
-                                                        <h4 class="card-title">Lic. Jorge Luis Gutiérrez García, M.Sc.,</h4>
-                                                        <p class="card-text">Master en Creación de Multimedios e Internet con Especialidad en Desarrollo de Interactivos, 
-									Estudios de Posgrado en Seguridad Informática. Licenciado en Ciencias de la Computación. Certificación en Ciberseguridad, 
-									Experiencia en Telecomunicaciones, Administración IT y Seguridad Informática.</p>
+
+                                              <!-- Modal -->
+                                              <div class="modal fade" id="modalJorge" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenteredLabel">Perfil del instructor</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+
+                                                            <div class="backside">
+                                                                <div class="card">
+                                                                    <div class="card-body text-center mt-4">
+                                                                    <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/jorgegut.jpeg" alt="card image"></p>
+                                                                        <h4 class="card-title">Lic. Jorge Luis Gutiérrez García, M.Sc.,</h4>
+                                                        <p class="card-text">Master en Creación de Multimedios e Internet con Especialidad en Desarrollo de Interactivos,
+                                                            Estudios de Posgrado en Seguridad Informática. Licenciado en Ciencias de la Computación. Certificación en Ciberseguridad,
+                                                            Experiencia en Telecomunicaciones, Administración IT y Seguridad Informática.</p>
                                                         <ul class="list-inline">
                                                             <li class="list-inline-item">
                                                                 <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/jorgegutierrez181176" target="_blank">
-                                                                    <img src="<?= RUTA_DOMAIN ?>vistas/img/mvp.png" alt="">
+                                                                <i class="fa fa-linkedin"></i>
                                                                 </a>
                                                             </li>
                                                         </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +150,7 @@
                 </main>
 
             </div>
-          
+
             <div class="contenido-2 col-md-4 mt-4">
                 <img src="<?= RUTA_DOMAIN ?>vistas/img/pp6.png" alt="" class="img-fluid">
                 <br />

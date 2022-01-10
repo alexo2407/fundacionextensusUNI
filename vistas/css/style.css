@@ -384,9 +384,9 @@ h2 {
 }
 
 .servicios p {
-    text-align: center;
-    color: #848484;
-    font-size: 12px;
+    text-align: justify;
+    color: #4d4c4c;
+    font-size: 16px;
 }
 
 .servicios img {
@@ -783,6 +783,8 @@ section .section-title {
     background: #ffffff;
 }
 
+
+/* 
 .image-flip:hover .backside,
 .image-flip.hover .backside {
     -webkit-transform: rotateY(0deg);
@@ -852,7 +854,7 @@ section .section-title {
     -ms-transform-style: preserve-3d;
     transition: 1s;
     transform-style: preserve-3d;
-}
+} */
 
 .frontside .card,
 .backside .card {
@@ -866,9 +868,13 @@ section .section-title {
     color: #062470 !important;
 }
 
+.card-text {
+    font-size: 2rem;
+}
+
 .frontside .card .card-title,
 .backside .card .card-title {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
 }
 
 @media (min-width: 768px) {

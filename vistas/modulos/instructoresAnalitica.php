@@ -19,6 +19,7 @@
                     <section id="team" class="pb-1">
                         <div class="container">
                             <div class="row">
+
                                 <!-- Team member -->
                                 <div class="col-12 col-md-12 mb-4">
                                     <div class="image-flip">
@@ -30,36 +31,57 @@
                                                         <h4 class="card-title">Pablo Moreno MVP (Microsoft Most Valuable
                                                             Professional)</h4>
                                                         <h4 class="card-title">Analítica Avanzada con Power BI, R y Python</h4>
-                                                        <a href="https://mvp.microsoft.com/es-es/PublicProfile/5003432?fullName=Pablo" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                                        <a href="https://mvp.microsoft.com/es-es/PublicProfile/5003432?fullName=Pablo" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalPablo">VER PERFIL</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="backside">
-                                                <div class="card">
-                                                    <div class="card-body text-center mt-4">
-                                                        <h4 class="card-title">Pablo Moreno MVP (Microsoft Most Valuable
-                                                            Professional)</h4>
-                                                        <p class="card-text">Científico de datos con experiencia en inteligencia
-                                                            empresarial, análisis avanzado y aprendizaje automático en múltiples campos
-                                                            comerciales: mercados financieros, finanzas corporativas, marketing digital,
-                                                            cadena de suministro, operaciones, gestión de riesgos y controles internos /
-                                                            auditoría interna, obtenidos en entornos globales durante los últimos 20 años.
-                                                            Gerente de Proyectos de datos (waterfall y agile) en múltiples industrias con
-                                                            exposición internacional, pensamiento estratégico y comprobada capacidad de
-                                                            liderazgo.</p>
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item">
-                                                                <a class="social-icon text-xs-center" href="https://mvp.microsoft.com/es-es/PublicProfile/5003432?fullName=Pablo" target="_blank">
-                                                                    <img src="<?= RUTA_DOMAIN ?>vistas/img/mvp.png" alt="">
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="modalPablo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenteredLabel">Perfil del instructor</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="backside">
+                                                                <div class="card">
+                                                                    <div class="card-body text-center mt-4">
+                                                                        <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/pablo.jpeg" alt="card image"></p>
+                                                                        <h4 class="card-title">Pablo Moreno MVP (Microsoft Most Valuable
+                                                                            Professional)</h4>
+                                                                        <p class="card-text">Científico de datos con experiencia en inteligencia
+                                                                            empresarial, análisis avanzado y aprendizaje automático en múltiples campos
+                                                                            comerciales: mercados financieros, finanzas corporativas, marketing digital,
+                                                                            cadena de suministro, operaciones, gestión de riesgos y controles internos /
+                                                                            auditoría interna, obtenidos en entornos globales durante los últimos 20 años.
+                                                                            Gerente de Proyectos de datos (waterfall y agile) en múltiples industrias con
+                                                                            exposición internacional, pensamiento estratégico y comprobada capacidad de
+                                                                            liderazgo.</p>
+                                                                        <ul class="list-inline">
+                                                                            <li class="list-inline-item">
+                                                                                <a class="social-icon text-xs-center" href="https://mvp.microsoft.com/es-es/PublicProfile/5003432?fullName=Pablo" target="_blank">
+                                                                                    <img src="<?= RUTA_DOMAIN ?>vistas/img/mvp.png" alt="">
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
+
                                 <!-- ./Team member -->
                                 <!-- Team member -->
                                 <div class="col-12 col-md-12">
@@ -73,32 +95,51 @@
                                                             (Magister en Finanzas,
                                                             Magister en Gerencia de Proyectos, Ing. Sistemas de Información)</h4>
                                                         <h4 class="card-title">Analítica Avanzada con Power BI, R y Python</h4>
-                                                        <a href="https://mvp.microsoft.com/es-es/PublicProfile/5003432?fullName=Pablo" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                                        <a href="https://mvp.microsoft.com/es-es/PublicProfile/5003432?fullName=Pablo" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalGabriel">VER PERFIL</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="backside mb-2">
-                                                <div class="card">
-                                                    <div class="card-body text-center mt-4">
-                                                        <h4 class="card-title">Gabriel Gómez M.Sc.,
-                                                            (Magister en Finanzas,
-                                                            Magister en Gerencia de Proyectos, Ing. Sistemas de Información)</h4>
-                                                        <p class="card-text">Sistemas de Información: Desarrollo e Implementación de
-                                                            software, administración de DB (Base de Datos) SQL, BI (Inteligencia de
-                                                            negocio), generación de reportes y análisis para todos los niveles jerárquicos
-                                                            de la organización, manejo de herramientas tecnológicas de generación de
-                                                            reportes. Gerencia de Proyectos: Alto nivel de coordinación, creación de plan de
-                                                            proyecto detallado. Manejo de riesgos, efectiva administración de recursos,
-                                                            control de tiempo en la entrega de proyectos, proactivo. Finanzas: Análisis
-                                                            financieros de factibilidad de proyectos, análisis de estados financieros.
-                                                            Proyecciones de flujo de caja, estimación de costo de proyectos.</p>
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item">
-                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/gabriel-gomez-547182b7/" target="_blank">
-                                                                    <i class="fa fa-linkedin"></i>
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="modalGabriel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenteredLabel">Perfil del instructor</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="backside">
+                                                                <div class="card">
+                                                                    <div class="card-body text-center mt-4">
+                                                                        <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/gabriel.jpeg" alt="card image"></p>
+                                                                        <h4 class="card-title">Gabriel Gómez M.Sc.,
+                                                                            (Magister en Finanzas,
+                                                                            Magister en Gerencia de Proyectos, Ing. Sistemas de Información)</h4>
+                                                                        <p class="card-text">Sistemas de Información: Desarrollo e Implementación de
+                                                                            software, administración de DB (Base de Datos) SQL, BI (Inteligencia de
+                                                                            negocio), generación de reportes y análisis para todos los niveles jerárquicos
+                                                                            de la organización, manejo de herramientas tecnológicas de generación de
+                                                                            reportes. Gerencia de Proyectos: Alto nivel de coordinación, creación de plan de
+                                                                            proyecto detallado. Manejo de riesgos, efectiva administración de recursos,
+                                                                            control de tiempo en la entrega de proyectos, proactivo. Finanzas: Análisis
+                                                                            financieros de factibilidad de proyectos, análisis de estados financieros.
+                                                                            Proyecciones de flujo de caja, estimación de costo de proyectos.</p>
+                                                                        <ul class="list-inline">
+                                                                            <li class="list-inline-item">
+                                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/gabriel-gomez-547182b7/" target="_blank">
+                                                                                    <i class="fa fa-linkedin"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -117,29 +158,45 @@
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/luca.jpeg" alt="card image"></p>
                                                         <h4 class="card-title">Lic. Luca Piattelli</h4>
                                                         <h4 class="card-title">Analítica Predicitiva y Machine Learning con R, Python y Databricks</h4>
-                                                        <a href="https://www.linkedin.com/in/lpiattelli/" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                                        <a href="https://www.linkedin.com/in/lpiattelli/" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalLucas">VER PERFIL</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="backside mb-2">
-                                                <div class="card">
-                                                    <div class="card-body text-center mt-4">
-                                                        <h4 class="card-title">Lic. Luca Piattelli</h4>
-                                                        <p class="card-text">Líder de Proyectos Business Intelligence, con experiencia en Gestión de Proyectos
-                                                            y Desarrollo de Soluciones BI en múltiples campos comerciales: Finanzas, Marketing, Retail, Logística,
-                                                            Gestión de Inventarios. Desarrollador Senior de Power BI, con conocimientos en R y Python. Licenciado
-                                                            en Administración, Magister en Business Intelligence y Especialista en Análisis de Datos Aplicado a los
-                                                            Negocios. Trayectoria educativa in Company y Universitaria, director Diplomado Business Analytics.</p>
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item">
-                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/gabriel-gomez-547182b7/" target="_blank">
-                                                                    <i class="fa fa-linkedin"></i>
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="modalLucas" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenteredLabel">Perfil del instructor</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="backside">
+                                                                <div class="card">
+                                                                    <div class="card-body text-center mt-4">
+                                                                        <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/luca.jpeg" alt="card image"></p>
+                                                                        <h4 class="card-title">Lic. Luca Piattelli</h4>
+                                                                        <p class="card-text">Líder de Proyectos Business Intelligence, con experiencia en Gestión de Proyectos y Desarrollo de Soluciones BI en múltiples campos comerciales: Finanzas, Marketing, Retail, Logística, Gestión de Inventarios. Desarrollador Senior de Power BI, con conocimientos en R y Python. Licenciado en Administración, Magister en Business Intelligence y Especialista en Análisis de Datos Aplicado a los Negocios. Trayectoria educativa in Company y Universitaria, director Diplomado Business Analytics.</p>
+                                                                        <ul class="list-inline">
+                                                                            <li class="list-inline-item">
+                                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/lpiattelli/" target="_blank">
+                                                                                    <i class="fa fa-linkedin"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -154,27 +211,47 @@
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/cris.jpeg" alt="card image"></p>
                                                         <h4 class="card-title">CPN. Cristian Dario Ortega Yubro</h4>
                                                         <h4 class="card-title">Analítica Predicitiva y Machine Learning con R, Python y Databricks</h4>
-                                                        <a href="https://www.linkedin.com/in/cristiandarioortegayubro/" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                                        <a href="https://www.linkedin.com/in/cristiandarioortegayubro/" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalCristian">VER PERFIL</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="backside mb-2">
-                                                <div class="card">
-                                                    <div class="card-body text-center mt-4">
-                                                        <h4 class="card-title">CPN. Cristian Dario Ortega Yubro</h4>
-                                                        <p class="card-text">Contador Publico, con 13 años de antigüedad en Administración Tributaria Mendoza,
-                                                            actualmente me desempeño en Analítica de datos Tributarios, maestrando en Métodos Cuantitativos para la
-                                                            Gestión y Análisis de Datos en Organizaciones en la Universidad de Buenos Aires, Facultad de Ciencias
-                                                            Económicas, además soy Jefe de Trabajos Prácticos en la materia Procesos y Sistemas de Información en la
-                                                            Universidad del Aconcagua, Facultad de Ciencias Económicas y Jurídicas y Coordinador de la Diplomatura
-                                                            Business Analytics de la misma casa de estudios.</p>
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item">
-                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/cristiandarioortegayubro/" target="_blank">
-                                                                    <i class="fa fa-linkedin"></i>
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="modalCristian" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenteredLabel">Perfil del instructor</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="backside">
+                                                                <div class="card">
+                                                                    <div class="card-body text-center mt-4">
+                                                                        <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/cris.jpeg" alt="card image"></p>
+                                                                        <h4 class="card-title">CPN. Cristian Dario Ortega Yubro</h4>
+                                                                        <p class="card-text">Contador Publico, con 13 años de antigüedad en Administración Tributaria Mendoza,
+                                                                            actualmente me desempeño en Analítica de datos Tributarios, maestrando en Métodos Cuantitativos para la
+                                                                            Gestión y Análisis de Datos en Organizaciones en la Universidad de Buenos Aires, Facultad de Ciencias
+                                                                            Económicas, además soy Jefe de Trabajos Prácticos en la materia Procesos y Sistemas de Información en la
+                                                                            Universidad del Aconcagua, Facultad de Ciencias Económicas y Jurídicas y Coordinador de la Diplomatura
+                                                                            Business Analytics de la misma casa de estudios.</p>
+                                                                        <ul class="list-inline">
+                                                                            <li class="list-inline-item">
+                                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/cristiandarioortegayubro/" target="_blank">
+                                                                                    <i class="fa fa-linkedin"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -191,31 +268,53 @@
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/rodrigo.jpg" alt="card image"></p>
                                                         <h4 class="card-title">Rodrigo Anibal Esquivel Lavergne, PMP</h4>
                                                         <h4 class="card-title">Analítica Predicitiva y Machine Learning con R, Python y Databricks</h4>
-                                                        <a href="https://www.linkedin.com/in/rodrigo-anibal-esquivel-lavergne-pmp-35104315" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                                        <a href="https://www.linkedin.com/in/rodrigo-anibal-esquivel-lavergne-pmp-35104315" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalRodrigo">VER PERFIL</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="backside mb-2">
-                                                <div class="card">
-                                                    <div class="card-body text-center mt-4">
-                                                        <h4 class="card-title">Rodrigo Anibal Esquivel Lavergne, PMP</h4>
-                                                        <p class="card-text">Licenciado en Administración de empresas especializado en Sistemas de Información.
-                                                            Con un posgrado en alta Gerencia y una certificación por el Project Management Institute en Manejo de proyectos
-                                                            poseo más de 20 años de experiencia gerenciando proyectos de Cómputo a nivel nacional y regional especializándome
-                                                            en el área de Inteligencia de negocios, Minería de Datos, Información Geoespacial y Gobernanza de Datos.
-                                                            Desde hace 3 años poseo una empresa propia especializada en el área de Automatización de Procesos y Analítica
-                                                            donde aplico mi experiencia para aportar valor agregado a aquellas organizaciones que requieran de estos servicios
-                                                            especializados.</p>
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item">
-                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/rodrigo-anibal-esquivel-lavergne-pmp-35104315" target="_blank">
-                                                                    <i class="fa fa-linkedin"></i>
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="modalRodrigo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenteredLabel">Perfil del instructor</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+
+                                                            <div class="backside">
+                                                                <div class="card">
+                                                                    <div class="card-body text-center mt-4">
+                                                                        <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/rodrigo.jpg" alt="card image"></p>
+                                                                        <h4 class="card-title">Rodrigo Anibal Esquivel Lavergne, PMP</h4>
+                                                                        <p class="card-text">Licenciado en Administración de empresas especializado en Sistemas de Información.
+                                                                            Con un posgrado en alta Gerencia y una certificación por el Project Management Institute en Manejo de proyectos
+                                                                            poseo más de 20 años de experiencia gerenciando proyectos de Cómputo a nivel nacional y regional especializándome
+                                                                            en el área de Inteligencia de negocios, Minería de Datos, Información Geoespacial y Gobernanza de Datos.
+                                                                            Desde hace 3 años poseo una empresa propia especializada en el área de Automatización de Procesos y Analítica
+                                                                            donde aplico mi experiencia para aportar valor agregado a aquellas organizaciones que requieran de estos servicios
+                                                                            especializados.</p>
+                                                                        <ul class="list-inline">
+                                                                            <li class="list-inline-item">
+                                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/rodrigo-anibal-esquivel-lavergne-pmp-35104315" target="_blank">
+                                                                                    <i class="fa fa-linkedin"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -230,29 +329,51 @@
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/esteban.jpg" alt="card image"></p>
                                                         <h4 class="card-title">Ing. Oscar Esteban Pastor</h4>
                                                         <h4 class="card-title">Gerencia con Analítica Avanzada para Toma de Decisiones</h4>
-                                                        <a href="https://www.linkedin.com/in/oscar-esteban-lean-agile-x0/" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                                        <a href="https://www.linkedin.com/in/oscar-esteban-lean-agile-x0/" target="_blank" class="btn btn-primary  btn-lg" data-toggle="modal" data-target="#modalOscar">VER PERFIL</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="backside mb-2">
-                                                <div class="card">
-                                                    <div class="card-body text-center mt-4">
-                                                        <h4 class="card-title">Ing. Oscar Esteban Pastor</h4>
-                                                        <p class="card-text">Ingeniero Quimico / Master en Direccion Produccion. Ingeniero Industrial, Black belt Lean Sig Sixma y
-                                                            Master en Direccion Produccion / Calidad de IDE CESEM con mas de 23 anios de experiencia internacional. Consultor internacional de
-                                                            Lean Agile y gestion del cambio en organizaciones. Especialista en la optimizacion y eficiencia de costos.
-                                                            Certificador internacional de Lean Six Sigma Socio y Director de Consultora internacional con experiencia en multiples
-                                                            proyectos industriales y energeticos.</p>
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item">
-                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/oscar-esteban-lean-agile-x0/" target="_blank">
-                                                                    <i class="fa fa-linkedin"></i>
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="modalOscar" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenteredLabel">Perfil del instructor</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+
+                                                            <div class="backside">
+                                                                <div class="card">
+                                                                    <div class="card-body text-center mt-4">
+                                                                        <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/esteban.jpg" alt="card image"></p>
+                                                                        <h4 class="card-title">Ing. Oscar Esteban Pastor</h4>
+                                                                        <p class="card-text">Ingeniero Quimico / Master en Direccion Produccion. Ingeniero Industrial, Black belt Lean Sig Sixma y
+                                                                            Master en Direccion Produccion / Calidad de IDE CESEM con mas de 23 anios de experiencia internacional. Consultor internacional de
+                                                                            Lean Agile y gestion del cambio en organizaciones. Especialista en la optimizacion y eficiencia de costos.
+                                                                            Certificador internacional de Lean Six Sigma Socio y Director de Consultora internacional con experiencia en multiples
+                                                                            proyectos industriales y energeticos.</p>
+                                                                        <ul class="list-inline">
+                                                                            <li class="list-inline-item">
+                                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/oscar-esteban-lean-agile-x0/" target="_blank">
+                                                                                    <i class="fa fa-linkedin"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -267,29 +388,50 @@
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/enrique.jpg" alt="card image"></p>
                                                         <h4 class="card-title">Ing. Enrique Otero Espinosa</h4>
                                                         <h4 class="card-title">Gerencia con Analítica Avanzada para Toma de Decisiones</h4>
-                                                        <a href="https://www.linkedin.com/in/enriqueotero/" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                                        <a href="https://www.linkedin.com/in/enriqueotero/" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalEnrique">VER PERFIL</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="backside mb-2">
-                                                <div class="card">
-                                                    <div class="card-body text-center mt-4">
-                                                        <h4 class="card-title">Ing. Enrique Otero Espinosa</h4>
-                                                        <p class="card-text">Más de 20 años de experiencia en el Arena de Infraestructuras de Información.
-                                                            No solo cuento con una alta formación técnica sino también con una dilatada experiencia liderando grupos.
-                                                            Interesado en afrontar nuevos proyectos relacionados con el mundo de la Gestión de la Información.<br />
-                                                            EMC Cloud Architect Certification (EMCCA). VMware Certified Professional 6 (VMware VCP).
-                                                            Information Infrastructures Technical Delivery Teams Leadership. EMC Proven Professional.
-                                                            EMC Business Continuance and Disaster Recovery Expert. EMC Storage Performance Guru.
-                                                            EMC Principal Solutions Architect for Telcos and Banking. Information Infrastructures Security Professional (CISSP Certified).
-                                                            UNIX (AIX, HPUX, Solaris) and Linux Administrator.</p>
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item">
-                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/enriqueotero/" target="_blank">
-                                                                    <i class="fa fa-linkedin"></i>
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="modalEnrique" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenteredLabel">Perfil del instructor</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+
+                                                            <div class="backside">
+                                                                <div class="card">
+                                                                    <div class="card-body text-center mt-4">
+                                                                        <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/enrique.jpg" alt="card image"></p>
+                                                                        <h4 class="card-title">Ing. Enrique Otero Espinosa</h4>
+                                                                        <p class="card-text">Más de 20 años de experiencia en el Arena de Infraestructuras de Información.
+                                                                            No solo cuento con una alta formación técnica sino también con una dilatada experiencia liderando grupos.
+                                                                            Interesado en afrontar nuevos proyectos relacionados con el mundo de la Gestión de la Información.<br />
+                                                                            EMC Cloud Architect Certification (EMCCA). VMware Certified Professional 6 (VMware VCP).
+                                                                            Information Infrastructures Technical Delivery Teams Leadership. EMC Proven Professional.
+                                                                            EMC Business Continuance and Disaster Recovery Expert. EMC Storage Performance Guru.
+                                                                            EMC Principal Solutions Architect for Telcos and Banking. Information Infrastructures Security Professional (CISSP Certified).
+                                                                            UNIX (AIX, HPUX, Solaris) and Linux Administrator.</p>
+                                                                        <ul class="list-inline">
+                                                                            <li class="list-inline-item">
+                                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/enriqueotero/" target="_blank">
+                                                                                    <i class="fa fa-linkedin"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
