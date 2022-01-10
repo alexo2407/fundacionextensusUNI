@@ -45,7 +45,7 @@
 
         <div class="row servicios-row">
             <div class="col-12 col-md-2 text-center">
-                <p><img src="<?= RUTA_DOMAIN ?>vistas/img/path1786.png"></p>
+                <p class="text-center"><img src="<?= RUTA_DOMAIN ?>vistas/img/path1786.png"></p>
             </div>
             <div class="col-12 col-md-10">
                 <h3 class="my-2">Certificada por la UNI</h3>
@@ -56,7 +56,7 @@
 
         <div class="row servicios-row">
             <div class="col-12 col-md-2 text-center">
-                <p><img src="<?= RUTA_DOMAIN ?>vistas/img/path1607.png"></p>
+                <p class="text-center"><img src="<?= RUTA_DOMAIN ?>vistas/img/path1607.png"></p>
             </div>
             <div class="col-12 col-md-10">
                 <h3 class="my-2">Instructores expertos internacionales</h3>
@@ -69,7 +69,7 @@
 
         <div class="row servicios-row">
             <div class="col-12 col-md-2 text-center">
-                <p><img src="<?= RUTA_DOMAIN ?>vistas/img/path1763.png"></p>
+                <p class="text-center"><img src="<?= RUTA_DOMAIN ?>vistas/img/path1763.png"></p>
             </div>
             <div class="col-12 col-md-10">
                 <h3 class="my-2">Somos Dirección Regional para Nicaragua y Centroamérica</h3>

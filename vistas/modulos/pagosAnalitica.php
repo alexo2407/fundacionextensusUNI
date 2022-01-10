@@ -144,9 +144,9 @@
                 1. Pago Único: <strong>USD
                     150.00</strong><br><br>
 
-                <h2> Formas de Pago</h2><br>
+                <!-- <h2> Formas de Pago</h2><br>
                 <p>Los pagos se realizaran a través de transferencias bancarias o tarjeta de crédito
-                    Para realizar el pago con tarjeta de crédito, <a href="https://fundacionextensus.org/pagos" target="blank_">pulse aquí</a>, una vez realizado su pago, deberá enviar el
+                    Para realizar el pago con tarjeta de crédito, <a href="pagos" target="blank_">pulse aquí</a>, una vez realizado su pago, deberá enviar el
                     comprobante de la transacción al correo <a href="mailto:dirposgrado@pstg.uni.edu.ni" class="link-7">dirposgrado@pstg.uni.edu.ni</a> para proceder
                     a confirmar su Inscripción.</p>
                 <ul class="list-group mt-4">
@@ -157,7 +157,28 @@
                     <li class="list-group-item"><strong>ABA:</strong> 026009593</li>
                     <li class="list-group-item"><strong>Nombre del Banco:</strong> Bank of America</li>
 
-                </ul>
+                </ul> -->
+                <!-- Tip: use bg-* and text-* utilities to style the card -->
+                <div class="card text-white bg-primary mb-3 d-inline-block" style="max-width: auto;">
+                    <!-- <div class="card-header">Formas de Pago</div> -->
+                    <div class="card-body">
+                        <h4 class="card-title">Formas de Pago</h4>
+                        <p class="card-text">
+                        <p>Los pagos se realizaran a través de transferencias bancarias o tarjeta de crédito
+                            Para realizar el pago con tarjeta de crédito, <a href="pagos" target="blank_">pulse aquí</a>, una vez realizado su pago, deberá enviar el
+                            comprobante de la transacción al correo <a href="mailto:dirposgrado@pstg.uni.edu.ni" class="link-7">dirposgrado@pstg.uni.edu.ni</a> para proceder
+                            a confirmar su Inscripción.</p>
+                        <ul class="mt-4">
+                            <li><strong>Cuenta:</strong> CAPACITACIONES EXTENSUS, LLC</li>
+                            <li><strong>Direccion:</strong> 1795 Bonaventure Blvd, Weston, FL 33326
+                            </li>
+                            <li><strong>No. Cuenta:</strong> 898108779869</li>
+                            <li><strong>ABA:</strong> 026009593</li>
+                            <li><strong>Nombre del Banco:</strong> Bank of America</li>
+
+                        </ul>
+                    </div>
+                </div>
 
 
             </div>

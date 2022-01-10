@@ -18,7 +18,7 @@
                         <div class="container">
                             <div class="row">
                                 <!-- Team member -->
-                                <div class="col-12 col-md-12">
+                                <div class="col-12 col-md-12 mb-4">
                                     <div class="image-flip">
                                         <div class="mainflip flip-0">
                                             <div class="frontside">
@@ -79,7 +79,7 @@
                                 </div>
                                 <!-- ./Team member -->
                                 <!-- Team member -->
-                                <div class="col-12 col-md-12">
+                                <div class="col-12 col-md-12 mb-4">
                                     <div class="image-flip">
                                         <div class="mainflip flip-0">
                                             <div class="frontside">
