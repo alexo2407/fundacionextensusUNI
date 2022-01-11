@@ -27,9 +27,16 @@
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/denis.jpg" alt="card image"></p>
 
                                                         <h4 class="card-title">Lic. Denis Enrique Guido Rodríguez</h4>
-                                                        <h5>Inteligencia de Negocios con SQL Server <br> aplicando Power BI</h5>
-                                                        <h5>Administración de Bases de Datos con SQL Server 2019</h5>
-                                                        <a href="https://www.linkedin.com/in/denis-enrique-guido-rodr%C3%ADguez-9b2ba56a/" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalDennis">VER PERFIL</a>
+
+                                                        <div class="col-12 text-center mt-4">
+                                                            <ul class="instructores text-center d-flex flex-column justify-content-around align-items-center">
+                                                                <li>Inteligencia de Negocios con SQL Server<b> aplicando Power BI</b></li><br>
+                                                                <li>Administración de Bases de Datos con<b> SQL Server 2019</b></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="mt-5 mt-lg-5">
+                                                            <a href="https://www.linkedin.com/in/denis-enrique-guido-rodr%C3%ADguez-9b2ba56a/" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalDennis">VER PERFIL</a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -48,21 +55,24 @@
 
                                                             <div class="backside">
                                                                 <div class="card">
-                                                                    <div class="card-body text-center mt-4">
+                                                                    <div class="card-body text-center">
                                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/denis.jpg" alt="card image"></p>
                                                                         <h4 class="card-title">Lic. Denis Enrique Guido Rodríguez</h4>
                                                                         <p class="card-text">Licenciado en Ciencias de la Computación graduado de la UNAN-MANAGUA con más de
                                                                             15 años de experiencia profesional continuo. Especialistas en Bases de datos (T-SQL,Administración de Bases de Datos, Tuning),
                                                                             Inteligencia de Negocios con SQL Server (SSIS, SSAS, POWERBI), Diseño de Procesos, Integración de Sistemas y Soluciones
                                                                             Informáticas de Gestión Empresarial (Inventario, Facturación, Ctas x Cobrar, Ctas x Pagar, Nómina, Activo Fijo, Cobros en ruta, etc.).
-                                                                            Especialista en Programación (.NET, C#, VB.NET) entornos Web (ASP.NET, MVC, MVC Core)..</p>
-                                                                        <ul class="list-inline">
-                                                                            <li class="list-inline-item">
-                                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/denis-enrique-guido-rodr%C3%ADguez-9b2ba56a/" target="_blank">
-                                                                                    <i class="fa fa-linkedin"></i>
-                                                                                </a>
-                                                                            </li>
-                                                                        </ul>
+                                                                            Especialista en Programación (.NET, C#, VB.NET) entornos Web (ASP.NET, MVC, MVC Core).</p>
+                                                                        <div class="container text-center">
+                                                                            <h5><strong>Redes Sociales:</strong></h5>
+                                                                            <ul class="list-inline">
+                                                                                <li class="list-inline-item">
+                                                                                    <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/denis-enrique-guido-rodr%C3%ADguez-9b2ba56a/" target="_blank">
+                                                                                        <i class="fa fa-linkedin"></i>
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -88,14 +98,20 @@
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/jorgegut.jpeg" alt="card image"></p>
 
                                                         <h4 class="card-title">Lic. Jorge Luis Gutiérrez García, M.Sc.,</h4>
-                                                        <h5>Hacking Ético y Ciberseguridad</h5>
-                                                        <a href="https://www.linkedin.com/in/jorgegutierrez181176" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalJorge">VER PERFIL</a>
+                                                        <div class="col-12 text-center mt-4">
+                                                            <ul class="instructores text-center d-flex flex-column justify-content-around align-items-center">
+                                                                <li>Hacking<b> Ético y Ciberseguridad</b></li><br>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="mt-4 mt-lg-5">
+                                                            <a href="https://www.linkedin.com/in/jorgegutierrez181176" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalJorge">VER PERFIL</a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                              <!-- Modal -->
-                                              <div class="modal fade" id="modalJorge" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="modalJorge" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
                                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
@@ -108,19 +124,23 @@
 
                                                             <div class="backside">
                                                                 <div class="card">
-                                                                    <div class="card-body text-center mt-4">
-                                                                    <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/jorgegut.jpeg" alt="card image"></p>
+                                                                    <div class="card-body text-center">
+                                                                        <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/jorgegut.jpeg" alt="card image"></p>
                                                                         <h4 class="card-title">Lic. Jorge Luis Gutiérrez García, M.Sc.,</h4>
-                                                        <p class="card-text">Master en Creación de Multimedios e Internet con Especialidad en Desarrollo de Interactivos,
-                                                            Estudios de Posgrado en Seguridad Informática. Licenciado en Ciencias de la Computación. Certificación en Ciberseguridad,
-                                                            Experiencia en Telecomunicaciones, Administración IT y Seguridad Informática.</p>
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item">
-                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/jorgegutierrez181176" target="_blank">
-                                                                <i class="fa fa-linkedin"></i>
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+                                                                        <p class="card-text">Master en Creación de Multimedios e Internet con Especialidad en Desarrollo de Interactivos,
+                                                                            Estudios de Posgrado en Seguridad Informática. Licenciado en Ciencias de la Computación. Certificación en Ciberseguridad,
+                                                                            Experiencia en Telecomunicaciones, Administración IT y Seguridad Informática.</p>
+                                                                        <div class="container text-center">
+                                                                            <h5><strong>Redes Sociales:</strong></h5>
+                                                                            <ul class="list-inline">
+                                                                                <li class="list-inline-item">
+                                                                                    <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/jorgegutierrez181176" target="_blank">
+                                                                                        <i class="fa fa-linkedin"></i>
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+
                                                                     </div>
                                                                 </div>
                                                             </div>

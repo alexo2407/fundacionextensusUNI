@@ -15,7 +15,7 @@
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <strong>Hubo un error, el monto solo puede tener 2 decimales.</strong> 
+            <strong>Ocurrio un error, debe de ingresar un monto valido.</strong> 
           </div>
         </div>
         <?php
@@ -32,7 +32,7 @@
           <label for="">PAGO</label>
           <input type="number" class="form-control" value="<?php if (isset($_POST['pago'])) {
                                                               echo $_POST['pago'];
-                                                            } ?>" maxlength="256" name="name-4" data-name="Name 4" min="1.00" step="0.01" id="input-stripe-quantity">
+                                                            } else {echo "00.00"; }?>" maxlength="256" name="name-4" data-name="Name 4" min="1.00" step="0.01" id="input-stripe-quantity">
           <small id="helpId" class="text-muted">Ingrese el monto</small>
         </div>
         <div class="form-group">

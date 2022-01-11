@@ -27,10 +27,10 @@
                     </li>
                     <li>Inversión total del Posgrado: <strong>USD 1,798.00</strong></li>
                 </ul>
-                <form action="pagos" method="POST">
+                <form action="pagos" method="POST" target="_blank">
                     <div class="col mb-4">
                         <input type="hidden" name="pago" value="1798">
-                        <button type="submit" class="btn btn-primary  w-100" target="blank_">Realizar Pago Total de USD 1,798.00</a>
+                        <button type="submit" class="btn btn-primary  w-100" target="_blank">Realizar Pago Total de USD 1,798.00</a>
                     </div>
                 </form>
                 <b>2. Pago en cuotas mensuales:</b>
@@ -43,10 +43,10 @@
                     <li>Inversión total del Posgrado: <strong>USD 1,897.88</strong></li>
                     <li>Cuota mensual: <strong>USD 189.79</strong><br></li>
                 </ul>
-                <form action="pagos" method="POST">
+                <form action="pagos" method="POST" target="_blank">
                     <div class="col mb-4">
                         <input type="hidden" name="pago" value="189.79">
-                        <button type="submit" class="btn btn-primary  w-100" target="blank_">Realizar Cuota Mensual de USD 189.79</a>
+                        <button type="submit" class="btn btn-primary  w-100" target="_blank">Realizar Cuota Mensual de USD 189.79</a>
                     </div>
                 </form>
 
@@ -60,10 +60,10 @@
                     </li>
                     <li>Inversión total del Posgrado: <strong>USD 1,478.40</strong></li>
                 </ul>
-                <form action="pagos" method="POST">
+                <form action="pagos" method="POST" target="_blank">
                     <div class="col mb-4">
                         <input type="hidden" name="pago" value="1478.40">
-                        <button type="submit" class="btn btn-primary  w-100" target="blank_">Realizar Pago Total de USD 1,478.40</a>
+                        <button type="submit" class="btn btn-primary  w-100" target="_blank">Realizar Pago Total de USD 1,478.40</a>
                     </div>
                 </form>
 
@@ -77,10 +77,10 @@
                     <li>Inversión total del Posgrado: <strong>USD 1,558.30</strong></li>
                     <li>Cuota mensual: <strong>USD 155.83</strong><br></li>
                 </ul>
-                <form action="pagos" method="POST">
+                <form action="pagos" method="POST" target="_blank">
                     <div class="col mb-4">
                         <input type="hidden" name="pago" value="155.83">
-                        <button type="submit" class="btn btn-primary  w-100" target="blank_">Realizar Cuota Mensual de USD 155.83</a>
+                        <button type="submit" class="btn btn-primary  w-100" target="_blank">Realizar Cuota Mensual de USD 155.83</a>
                     </div>
                 </form>
                 <strong>Pago adicional para Certificaciones Internacionales del Curso Gerencia con Analítica Avanzada
@@ -88,10 +88,10 @@
                 1. Pago Único: <strong>USD
                     150.00</strong><br><br>
 
-                <form action="pagos" method="POST">
+                <form action="pagos" method="POST" target="_blank">
                     <div class="col mb-4">
                         <input type="hidden" name="pago" value="150.00">
-                        <button type="submit" class="btn btn-primary  w-100" target="blank_">Realizar Pago Único de USD 150.00</a>
+                        <button type="submit" class="btn btn-primary  w-100" target="_blank">Realizar Pago Único de USD 150.00</a>
                     </div>
                 </form>
 
@@ -107,10 +107,10 @@
 
                     1. Pago por cancelación anticipada: 10 % de descuento, adicional a la exoneración del 50 %: <br><strong>USD
                         359.55</strong><br><br>
-                <form action="pagos" method="POST">
+                <form action="pagos" method="POST" target="_blank">
                     <div class="col mb-4">
                         <input type="hidden" name="pago" value="359.55">
-                        <button type="submit" class="btn btn-primary  w-100" target="blank_">Realizar Pago USD
+                        <button type="submit" class="btn btn-primary  w-100" target="_blank">Realizar Pago USD
                             359.55</a>
                     </div>
                 </form>
@@ -120,10 +120,10 @@
                 Al momento de la Inscripción: <strong>USD 199.50</strong><br>
                 Finalizando la tercer semana: <strong>USD 100.00</strong><br>
                 Al finalizar el curso: <strong>USD 100.00</strong><br><br>
-                <form action="pagos" method="POST">
+                <form action="pagos" method="POST" target="_blank">
                     <div class="col mb-4">
                         <input type="hidden" name="pago" value="199.50">
-                        <button type="submit" class="btn btn-primary  w-100" target="blank_">Realizar Cuota</a>
+                        <button type="submit" class="btn btn-primary  w-100" target="_blank">Realizar Cuota</a>
                     </div>
                 </form>
 
@@ -165,7 +165,7 @@
                         <h4 class="card-title">Formas de Pago</h4>
                         <p class="card-text">
                         <p>Los pagos se realizaran a través de transferencias bancarias o tarjeta de crédito
-                            Para realizar el pago con tarjeta de crédito, <a href="pagos" target="blank_">pulse aquí</a>, una vez realizado su pago, deberá enviar el
+                            Para realizar el pago con tarjeta de crédito, <a href="pagos" target="_blank">pulse aquí</a>, una vez realizado su pago, deberá enviar el
                             comprobante de la transacción al correo <a href="mailto:dirposgrado@pstg.uni.edu.ni" class="link-7">dirposgrado@pstg.uni.edu.ni</a> para proceder
                             a confirmar su Inscripción.</p>
                         <ul class="mt-4">

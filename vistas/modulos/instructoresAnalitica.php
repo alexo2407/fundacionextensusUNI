@@ -30,8 +30,19 @@
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/pablo.jpeg" alt="card image"></p>
                                                         <h4 class="card-title">Pablo Moreno MVP (Microsoft Most Valuable
                                                             Professional)</h4>
-                                                        <h4 class="card-title">Analítica Avanzada con Power BI, R y Python</h4>
-                                                        <a href="https://mvp.microsoft.com/es-es/PublicProfile/5003432?fullName=Pablo" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalPablo">VER PERFIL</a>
+                                                        <div>
+                                                            <div class="container text-center">
+                                                                <h4><strong>Cursos</strong></h4>
+                                                                <div class="col-12 text-center">
+                                                                    <ul class="instructores text-center d-flex justify-content-center align-items-center">
+                                                                        <li>Analítica Avanzada con <b>Power BI, R y Python</b></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mt-5 mt-lg-1">
+                                                            <a href="https://mvp.microsoft.com/es-es/PublicProfile/5003432?fullName=Pablo" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalPablo">VER PERFIL</a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -48,7 +59,7 @@
                                                         <div class="modal-body">
                                                             <div class="backside">
                                                                 <div class="card">
-                                                                    <div class="card-body text-center mt-4">
+                                                                    <div class="card-body text-center">
                                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/pablo.jpeg" alt="card image"></p>
                                                                         <h4 class="card-title">Pablo Moreno MVP (Microsoft Most Valuable
                                                                             Professional)</h4>
@@ -60,13 +71,19 @@
                                                                             Gerente de Proyectos de datos (waterfall y agile) en múltiples industrias con
                                                                             exposición internacional, pensamiento estratégico y comprobada capacidad de
                                                                             liderazgo.</p>
-                                                                        <ul class="list-inline">
-                                                                            <li class="list-inline-item">
-                                                                                <a class="social-icon text-xs-center" href="https://mvp.microsoft.com/es-es/PublicProfile/5003432?fullName=Pablo" target="_blank">
-                                                                                    <img src="<?= RUTA_DOMAIN ?>vistas/img/mvp.png" alt="">
-                                                                                </a>
-                                                                            </li>
-                                                                        </ul>
+                                                                        <div class="mt-4">
+                                                                            <div class="container text-center">
+                                                                                <h5><strong>Redes Sociales:</strong></h5>
+                                                                                <ul class="list-inline">
+                                                                                    <li class="list-inline-item">
+                                                                                        <a class="social-icon text-xs-center" href="https://mvp.microsoft.com/es-es/PublicProfile/5003432?fullName=Pablo" target="_blank">
+                                                                                            <img src="<?= RUTA_DOMAIN ?>vistas/img/mvp.png" alt="">
+                                                                                        </a>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -81,10 +98,9 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <!-- ./Team member -->
                                 <!-- Team member -->
-                                <div class="col-12 col-md-12">
+                                <div class="col-12 col-md-12 mb-4">
                                     <div class="image-flip">
                                         <div class="mainflip flip-0">
                                             <div class="frontside">
@@ -94,8 +110,17 @@
                                                         <h4 class="card-title">Gabriel Gómez M.Sc.,
                                                             (Magister en Finanzas,
                                                             Magister en Gerencia de Proyectos, Ing. Sistemas de Información)</h4>
-                                                        <h4 class="card-title">Analítica Avanzada con Power BI, R y Python</h4>
-                                                        <a href="https://mvp.microsoft.com/es-es/PublicProfile/5003432?fullName=Pablo" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalGabriel">VER PERFIL</a>
+                                                        <div class="container text-center">
+                                                            <h4><strong>Cursos</strong></h4>
+                                                            <div class="col-12 text-center">
+                                                                <ul class="instructores text-center d-flex justify-content-center align-items-center">
+                                                                    <li>Analítica Avanzada con <b>Power BI, R y Python</b></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mt-5 mt-lg-1">
+                                                            <a href="https://mvp.microsoft.com/es-es/PublicProfile/5003432?fullName=Pablo" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalGabriel">VER PERFIL</a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -112,7 +137,7 @@
                                                         <div class="modal-body">
                                                             <div class="backside">
                                                                 <div class="card">
-                                                                    <div class="card-body text-center mt-4">
+                                                                    <div class="card-body text-center">
                                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/gabriel.jpeg" alt="card image"></p>
                                                                         <h4 class="card-title">Gabriel Gómez M.Sc.,
                                                                             (Magister en Finanzas,
@@ -126,19 +151,25 @@
                                                                             control de tiempo en la entrega de proyectos, proactivo. Finanzas: Análisis
                                                                             financieros de factibilidad de proyectos, análisis de estados financieros.
                                                                             Proyecciones de flujo de caja, estimación de costo de proyectos.</p>
-                                                                        <ul class="list-inline">
-                                                                            <li class="list-inline-item">
-                                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/gabriel-gomez-547182b7/" target="_blank">
-                                                                                    <i class="fa fa-linkedin"></i>
-                                                                                </a>
-                                                                            </li>
-                                                                        </ul>
+                                                                        <div class="mt-4">
+                                                                            <div class="container text-center">
+                                                                                <h5><strong>Redes Sociales:</strong></h5>
+                                                                                <ul class="list-inline">
+                                                                                    <li class="list-inline-item">
+                                                                                        <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/gabriel-gomez-547182b7/" target="_blank">
+                                                                                            <i class="fa fa-linkedin"></i>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            </di>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -157,8 +188,17 @@
                                                     <div class="card-body text-center">
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/luca.jpeg" alt="card image"></p>
                                                         <h4 class="card-title">Lic. Luca Piattelli</h4>
-                                                        <h4 class="card-title">Analítica Predicitiva y Machine Learning con R, Python y Databricks</h4>
-                                                        <a href="https://www.linkedin.com/in/lpiattelli/" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalLucas">VER PERFIL</a>
+                                                        <div class="container text-center">
+                                                            <h4><strong>Cursos</strong></h4>
+                                                            <div class="col-12 text-center">
+                                                                <ul class="instructores text-center d-flex justify-content-center align-items-center">
+                                                                    <li>Analítica Predicitiva y Machine Learning con <b>R, Python y Databricks</b></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mt-5 mt-lg-5">
+                                                            <a href="https://www.linkedin.com/in/lpiattelli/" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalLucas">VER PERFIL</a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -175,17 +215,24 @@
                                                         <div class="modal-body">
                                                             <div class="backside">
                                                                 <div class="card">
-                                                                    <div class="card-body text-center mt-4">
+                                                                    <div class="card-body text-center">
                                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/luca.jpeg" alt="card image"></p>
                                                                         <h4 class="card-title">Lic. Luca Piattelli</h4>
                                                                         <p class="card-text">Líder de Proyectos Business Intelligence, con experiencia en Gestión de Proyectos y Desarrollo de Soluciones BI en múltiples campos comerciales: Finanzas, Marketing, Retail, Logística, Gestión de Inventarios. Desarrollador Senior de Power BI, con conocimientos en R y Python. Licenciado en Administración, Magister en Business Intelligence y Especialista en Análisis de Datos Aplicado a los Negocios. Trayectoria educativa in Company y Universitaria, director Diplomado Business Analytics.</p>
-                                                                        <ul class="list-inline">
-                                                                            <li class="list-inline-item">
-                                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/lpiattelli/" target="_blank">
-                                                                                    <i class="fa fa-linkedin"></i>
-                                                                                </a>
-                                                                            </li>
-                                                                        </ul>
+                                                                        <div class="mt-4">
+                                                                            <div class="container text-center">
+                                                                                <h5><strong>Redes Sociales:</strong></h5>
+                                                                                <ul class="list-inline">
+                                                                                    <li class="list-inline-item">
+                                                                                        <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/lpiattelli/" target="_blank">
+                                                                                            <i class="fa fa-linkedin"></i>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            </di>
+                                                                        </div>
+
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -210,8 +257,14 @@
                                                     <div class="card-body text-center">
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/cris.jpeg" alt="card image"></p>
                                                         <h4 class="card-title">CPN. Cristian Dario Ortega Yubro</h4>
-                                                        <h4 class="card-title">Analítica Predicitiva y Machine Learning con R, Python y Databricks</h4>
-                                                        <a href="https://www.linkedin.com/in/cristiandarioortegayubro/" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalCristian">VER PERFIL</a>
+                                                        <div class="col-12 text-center">
+                                                            <ul class="instructores text-center d-flex justify-content-center align-items-center">
+                                                                <li>Analítica Predicitiva y Machine Learning con<b>R, Python y Databricks</b></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="mt-5 mt-lg-5">
+                                                            <a href="https://www.linkedin.com/in/cristiandarioortegayubro/" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalCristian">VER PERFIL</a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -229,7 +282,7 @@
                                                         <div class="modal-body">
                                                             <div class="backside">
                                                                 <div class="card">
-                                                                    <div class="card-body text-center mt-4">
+                                                                    <div class="card-body text-center">
                                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/cris.jpeg" alt="card image"></p>
                                                                         <h4 class="card-title">CPN. Cristian Dario Ortega Yubro</h4>
                                                                         <p class="card-text">Contador Publico, con 13 años de antigüedad en Administración Tributaria Mendoza,
@@ -238,13 +291,17 @@
                                                                             Económicas, además soy Jefe de Trabajos Prácticos en la materia Procesos y Sistemas de Información en la
                                                                             Universidad del Aconcagua, Facultad de Ciencias Económicas y Jurídicas y Coordinador de la Diplomatura
                                                                             Business Analytics de la misma casa de estudios.</p>
-                                                                        <ul class="list-inline">
-                                                                            <li class="list-inline-item">
-                                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/cristiandarioortegayubro/" target="_blank">
-                                                                                    <i class="fa fa-linkedin"></i>
-                                                                                </a>
-                                                                            </li>
-                                                                        </ul>
+
+                                                                        <div class="container text-center">
+                                                                            <h5><strong>Redes Sociales:</strong></h5>
+                                                                            <ul class="list-inline">
+                                                                                <li class="list-inline-item">
+                                                                                    <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/cristiandarioortegayubro/" target="_blank">
+                                                                                        <i class="fa fa-linkedin"></i>
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -267,8 +324,14 @@
                                                     <div class="card-body text-center">
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/rodrigo.jpg" alt="card image"></p>
                                                         <h4 class="card-title">Rodrigo Anibal Esquivel Lavergne, PMP</h4>
-                                                        <h4 class="card-title">Analítica Predicitiva y Machine Learning con R, Python y Databricks</h4>
-                                                        <a href="https://www.linkedin.com/in/rodrigo-anibal-esquivel-lavergne-pmp-35104315" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalRodrigo">VER PERFIL</a>
+                                                        <div class="col-12 text-center">
+                                                            <ul class="instructores text-center d-flex justify-content-center align-items-center">
+                                                                <li>Analítica Predicitiva y Machine Learning con<b>R, Python y Databricks</b></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="mt-5 mt-lg-5">
+                                                            <a href="https://www.linkedin.com/in/rodrigo-anibal-esquivel-lavergne-pmp-35104315" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalRodrigo">VER PERFIL</a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -287,7 +350,7 @@
 
                                                             <div class="backside">
                                                                 <div class="card">
-                                                                    <div class="card-body text-center mt-4">
+                                                                    <div class="card-body text-center">
                                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/rodrigo.jpg" alt="card image"></p>
                                                                         <h4 class="card-title">Rodrigo Anibal Esquivel Lavergne, PMP</h4>
                                                                         <p class="card-text">Licenciado en Administración de empresas especializado en Sistemas de Información.
@@ -297,13 +360,16 @@
                                                                             Desde hace 3 años poseo una empresa propia especializada en el área de Automatización de Procesos y Analítica
                                                                             donde aplico mi experiencia para aportar valor agregado a aquellas organizaciones que requieran de estos servicios
                                                                             especializados.</p>
-                                                                        <ul class="list-inline">
-                                                                            <li class="list-inline-item">
-                                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/rodrigo-anibal-esquivel-lavergne-pmp-35104315" target="_blank">
-                                                                                    <i class="fa fa-linkedin"></i>
-                                                                                </a>
-                                                                            </li>
-                                                                        </ul>
+                                                                        <div class="container text-center">
+                                                                            <h5><strong>Redes Sociales:</strong></h5>
+                                                                            <ul class="list-inline">
+                                                                                <li class="list-inline-item">
+                                                                                    <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/rodrigo-anibal-esquivel-lavergne-pmp-35104315" target="_blank">
+                                                                                        <i class="fa fa-linkedin"></i>
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -328,8 +394,15 @@
                                                     <div class="card-body text-center">
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/esteban.jpg" alt="card image"></p>
                                                         <h4 class="card-title">Ing. Oscar Esteban Pastor</h4>
-                                                        <h4 class="card-title">Gerencia con Analítica Avanzada para Toma de Decisiones</h4>
-                                                        <a href="https://www.linkedin.com/in/oscar-esteban-lean-agile-x0/" target="_blank" class="btn btn-primary  btn-lg" data-toggle="modal" data-target="#modalOscar">VER PERFIL</a>
+                                                        <div class="col-12 text-center">
+                                                            <ul class="instructores text-center d-flex justify-content-center align-items-center">
+                                                                <li>Gerencia con Analítica Avanzada para Toma de Decisiones</b></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="mt-5 mt-lg-5">
+                                                            <a href="https://www.linkedin.com/in/oscar-esteban-lean-agile-x0/" target="_blank" class="btn btn-primary  btn-lg" data-toggle="modal" data-target="#modalOscar">VER PERFIL</a>
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -348,7 +421,7 @@
 
                                                             <div class="backside">
                                                                 <div class="card">
-                                                                    <div class="card-body text-center mt-4">
+                                                                    <div class="card-body text-center">
                                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/esteban.jpg" alt="card image"></p>
                                                                         <h4 class="card-title">Ing. Oscar Esteban Pastor</h4>
                                                                         <p class="card-text">Ingeniero Quimico / Master en Direccion Produccion. Ingeniero Industrial, Black belt Lean Sig Sixma y
@@ -356,13 +429,16 @@
                                                                             Lean Agile y gestion del cambio en organizaciones. Especialista en la optimizacion y eficiencia de costos.
                                                                             Certificador internacional de Lean Six Sigma Socio y Director de Consultora internacional con experiencia en multiples
                                                                             proyectos industriales y energeticos.</p>
-                                                                        <ul class="list-inline">
-                                                                            <li class="list-inline-item">
-                                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/oscar-esteban-lean-agile-x0/" target="_blank">
-                                                                                    <i class="fa fa-linkedin"></i>
-                                                                                </a>
-                                                                            </li>
-                                                                        </ul>
+                                                                        <div class="container text-center">
+                                                                            <h5><strong>Redes Sociales:</strong></h5>
+                                                                            <ul class="list-inline">
+                                                                                <li class="list-inline-item">
+                                                                                    <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/oscar-esteban-lean-agile-x0/" target="_blank">
+                                                                                        <i class="fa fa-linkedin"></i>
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -387,8 +463,14 @@
                                                     <div class="card-body text-center">
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/enrique.jpg" alt="card image"></p>
                                                         <h4 class="card-title">Ing. Enrique Otero Espinosa</h4>
-                                                        <h4 class="card-title">Gerencia con Analítica Avanzada para Toma de Decisiones</h4>
-                                                        <a href="https://www.linkedin.com/in/enriqueotero/" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalEnrique">VER PERFIL</a>
+                                                        <div class="col-12 text-center">
+                                                            <ul class="instructores text-center d-flex justify-content-center align-items-center">
+                                                                <li>Ingeniería de <b> Big Data</b></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="mt-5 mt-lg-5">
+                                                            <a href="https://www.linkedin.com/in/enriqueotero/" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalEnrique">VER PERFIL</a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -407,7 +489,7 @@
 
                                                             <div class="backside">
                                                                 <div class="card">
-                                                                    <div class="card-body text-center mt-4">
+                                                                    <div class="card-body text-center">
                                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/enrique.jpg" alt="card image"></p>
                                                                         <h4 class="card-title">Ing. Enrique Otero Espinosa</h4>
                                                                         <p class="card-text">Más de 20 años de experiencia en el Arena de Infraestructuras de Información.
@@ -418,13 +500,16 @@
                                                                             EMC Business Continuance and Disaster Recovery Expert. EMC Storage Performance Guru.
                                                                             EMC Principal Solutions Architect for Telcos and Banking. Information Infrastructures Security Professional (CISSP Certified).
                                                                             UNIX (AIX, HPUX, Solaris) and Linux Administrator.</p>
-                                                                        <ul class="list-inline">
-                                                                            <li class="list-inline-item">
-                                                                                <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/enriqueotero/" target="_blank">
-                                                                                    <i class="fa fa-linkedin"></i>
-                                                                                </a>
-                                                                            </li>
-                                                                        </ul>
+                                                                        <div class="container text-center">
+                                                                            <h5><strong>Redes Sociales:</strong></h5>
+                                                                            <ul class="list-inline">
+                                                                                <li class="list-inline-item">
+                                                                                    <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/enriqueotero/" target="_blank">
+                                                                                        <i class="fa fa-linkedin"></i>
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>

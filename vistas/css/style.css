@@ -394,8 +394,42 @@ h2 {
     padding: .5rem .5rem;
 }
 
+.instructores {
+    list-style-image: url('../img/vineta.png') !important;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.instructores li {
+    height: 30px;
+    padding-left: 5px;
+}
+
+@media (min-width: 760px) {
+    .instructores {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .instructores li {
+        height: 30px;
+        padding-left: 20px;
+    }
+}
+
+
+/* .instructores ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}*/
+
 
 /* Card de profesores */
+
+.card .card-body p img {
+    width: 300px !important;
+    height: auto;
+}
 
 
 /* Linea de color */
@@ -815,14 +849,16 @@ section .section-title {
     transform-style: preserve-3d;
     position: relative;
 }
+*/
 
-.frontside {
-    position: relative;
-    -webkit-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    z-index: 2;
-}
 
+/* 
+.frontside:hover {
+    background: red;
+} */
+
+
+/*
 .backside {
     position: absolute;
     top: 0;
@@ -874,13 +910,13 @@ section .section-title {
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 @media (min-width: 768px) {
     .frontside .card .card-title,
     .backside .card .card-title {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
 

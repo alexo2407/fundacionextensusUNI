@@ -42,8 +42,6 @@
 
     ?>
 
-
-
     <a data-scroll href="#header" class="ir-arriba">
         <i class="fa fa-angle-up" aria-hidden="true">
         </i>
@@ -68,7 +66,7 @@
             var elevator = new Elevator({
                 element: document.querySelector('.ir-arriba'),
                 targetElement: document.querySelector('#header'),
-                verticalPadding: 100,
+                verticalPadding: 80,
                 duration: 1000 
             });
         }

@@ -22,7 +22,7 @@
 
                     1. Pago por cancelación anticipada: 10 % de descuento, adicional a la exoneración del 50 %: <br><strong>USD
                         135.00</strong><br><br>
-                <form action="pagos" method="POST">
+                <form action="pagos" method="POST" target="_blank">
                     <div class="col mb-4">
                         <input type="hidden" name="pago" value="135.00">
                         <button type="submit" class="btn btn-primary  w-100" target="blank_">Realizar Pago de USD 135.00</a>
@@ -33,7 +33,7 @@
 
                 Al momento de la Inscripción: <strong>USD 75.00</strong><br>
                 Finalizando la cuarta semana: <strong>USD 75.00</strong><br><br>
-                <form action="pagos" method="POST">
+                <form action="pagos" method="POST" target="_blank">
                     <div class="col mb-4">
                         <input type="hidden" name="pago" value="75.00">
                         <button type="submit" class="btn btn-primary  w-100" target="blank_">Realizar Cuota de USD 75.00</a>
@@ -44,7 +44,7 @@
 
                 1. Pago por cancelación anticipada: 10 % de descuento, adicional a la exoneración del 60 %: <br><strong>USD
                     108.00</strong><br><br>
-                <form action="pagos" method="POST">
+                <form action="pagos" method="POST" target="_blank">
                     <div class="col mb-4">
                         <input type="hidden" name="pago" value="108.00">
                         <button type="submit" class="btn btn-primary  w-100" target="blank_">Realizar Pago de USD 108.00</a>
@@ -56,7 +56,7 @@
                 Al momento de la Inscripción: <strong>USD 60.00</strong><br>
                 Finalizando la cuarta semana: <strong>USD 60.00</strong><br>
 
-                <form action="pagos" method="POST">
+                <form action="pagos" method="POST" target="_blank">
                     <div class="col mb-4">
                         <input type="hidden" name="pago" value="60.00">
                         <button type="submit" class="btn btn-primary  w-100" target="blank_">Realizar Cuota de USD 60.00</a>

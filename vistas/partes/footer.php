@@ -59,10 +59,11 @@
             <div class=" col-12 copy text-center mt-4">
                 <p>© <?php echo date('Y'); ?> <?php echo ucwords('CURSOS DE ESPECIALIZACIÓN EN ANALÍTICA AVANZADA, INTELIGENCIA DE NEGOCIOS Y CIBERSEGURIDAD'); ?> </p>
                 <ul>
+                <li class="d-inline-block"><a href="https://www.linkedin.com/company/universidad-nacional-de-ingenieria-%C2%B7-direcci%C3%B3n-de-posgrado/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                     <li class="d-inline-block"><a href="https://www.facebook.com/UNI.Direccion.Posgrados" target="_blank"><i class="fa fa-facebook"></i></a></li>
                     <li class="d-inline-block"><a href="https://twitter.com/uni_posgrado" target="_blank"><i class="fa fa-twitter"></i></a></li>
                     <li class="d-inline-block"><a href="https://www.instagram.com/unidepec/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                    <li class="d-inline-block"><a href="https://www.youtube.com/channel/UC-xl0Fx7MgbntmHuq99SJ3g" ttarget="_blank"><i class="fa fa-youtube"></i></a></li>
+                    <li class="d-inline-block"><a href="https://www.youtube.com/channel/UC-xl0Fx7MgbntmHuq99SJ3g" target="_blank"><i class="fa fa-youtube"></i></a></li>
                 </ul>
             </div>
         </div>

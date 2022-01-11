@@ -2,6 +2,12 @@
 
 class EnlacesControlador
 {
+
+    public function __construct()
+    {
+        
+    }
+
     public function enlacesControlador()
     {
         //evaluamos si existe el enlace a traves de la peticion GET
@@ -14,11 +20,13 @@ class EnlacesControlador
             $link = 'index';
         }
 
-        $respuestaEnlace = EnlacesModelo::enlacesModelo($link);
 
-        // var_dump($respuestaEnlace);
+        $respuestaEnlace = new EnlacesModelo();
+        $respuesta =  $respuestaEnlace->enlacesModelo($link);
 
-        include $respuestaEnlace;
+        // var_dump($respuesta);
+
+        include $respuesta;
 
     }
 }

@@ -1,7 +1,12 @@
 <?php
 class EnlacesModelo
 {
-    public static function enlacesModelo($link)
+    public function __construct()
+    {
+        
+    }
+    
+    public function enlacesModelo($link)
     {
         //guardamos la ruta en un arreglo
         $ruta = explode("/", $link);

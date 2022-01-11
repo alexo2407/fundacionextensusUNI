@@ -13,7 +13,7 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d487.5905853868269!2d-86.27033707744792!3d12.130980441327116!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4c8d43dee7a94068!2sUNI%20Posgrado!5e0!3m2!1ses-419!2sni!4v1641329942625!5m2!1ses-419!2sni" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
-<main id="principal-contacto">
+<!-- <main id="principal-contacto">
 
     <div class="container">
         <div class="row">
@@ -65,7 +65,7 @@
         <div class="div-block"></div>
     </div>
 
-</main>
+</main> -->
 
 
 

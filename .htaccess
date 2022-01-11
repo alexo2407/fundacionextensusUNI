@@ -1,6 +1,6 @@
 
 Options All -Indexes
-Options -MultiViews
+#Options -MultiViews
 
 RewriteEngine On
 
