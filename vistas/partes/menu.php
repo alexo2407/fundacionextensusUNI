@@ -108,7 +108,7 @@
                 <ul class="dropdown-menu">
                     <li><a href="objetivosAnalitica" class="dropdown-item">Descripción y Objetivos
                             del Curso</a></li>
-                    <li><a href="perfilAnalitica" class="dropdown-item">Perfil del Graduado</a></li>
+                    <!-- <li><a href="perfilAnalitica" class="dropdown-item">Perfil del Graduado</a></li> -->
                     <li><a href="instructoresAnalitica" class="dropdown-item">Instructores</a></li>
                     <li> <a href="pagosAnalitica" class="dropdown-item">Pagos</a></li>
                 </ul>
@@ -120,7 +120,7 @@
                 <ul class="dropdown-menu">
                     <li><a href="objetivosInteligencia" class="dropdown-item">Descripción y Objetivos
                             del Curso</a></li>
-                    <li><a href="perfilInteligencia" class="dropdown-item">Perfil del Graduado</a></li>
+                    <!-- <li><a href="perfilInteligencia" class="dropdown-item">Perfil del Graduado</a></li> -->
                     <li><a href="instructoresInteligencia" class="dropdown-item">Instructores</a></li>
                     <li> <a href="pagosInteligencia" class="dropdown-item">Pagos</a></li>
                 </ul>

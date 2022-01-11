@@ -15,11 +15,11 @@ class EnlacesModelo
         if (
             $ruta[0] == "inicio" ||
             $ruta[0] == "objetivosAnalitica" ||
-            $ruta[0] == "perfilAnalitica" ||
+            // $ruta[0] == "perfilAnalitica" ||
             $ruta[0] == "instructoresAnalitica" ||
             $ruta[0] == "pagosAnalitica" ||
             $ruta[0] == "objetivosInteligencia" ||
-            $ruta[0] == "perfilInteligencia" ||
+            // $ruta[0] == "perfilInteligencia" ||
             $ruta[0] == "instructoresInteligencia" ||
             $ruta[0] == "pagosInteligencia" ||
             $ruta[0] == "pagos" ||

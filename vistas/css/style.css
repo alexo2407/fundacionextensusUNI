@@ -583,9 +583,12 @@ section {
     padding: 60px 0;
 }
 
-#accordion-style-1 h1,
-#accordion-style-1 a {
+#accordion-style-1 h1 {
     color: #1B3781;
+}
+
+#accordion-style-1 a {
+    color: #ffffff;
 }
 
 #accordion-style-1 .btn-link {
