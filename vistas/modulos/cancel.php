@@ -23,7 +23,7 @@
       </div>
       <div class="col-12 col-md-12">
         <p style="font-size: 1.5rem; text-align: justify;">Este pago se podra realizar a través de transferencias bancarias o tarjeta de crédito
-          Para realizar el pago con tarjeta de crédito, una vez realizado su pago, deberá enviar el
+          Para realizar el pago con tarjeta de crédito, <a href="pagos" target="_blank">pulse aquí</a>, una vez realizado su pago, deberá enviar el
           comprobante de la transacción al correo <a href="mailto:dirposgrado@pstg.uni.edu.ni" class="link-7">dirposgrado@pstg.uni.edu.ni</a> para proceder
           a confirmar su Inscripción.</p>
         <ul class="list-group mt-4">
