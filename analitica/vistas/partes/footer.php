@@ -16,7 +16,7 @@
                     Sede Central Avenida Universitaria</p>
                 <p> Dirección de Estudios de Posgrados y
                     Educación Continua (UNI-DEPEC)
-                    Managua, Nicaragua<a href="#" class="d-inline"> Leer Más</a></p>
+                    Managua, Nicaragua</p>
             </div>
             <div class="sitemap col-lg-3 mt-5 text-center text-lg-left">
                 <h2>Contactos</h2>

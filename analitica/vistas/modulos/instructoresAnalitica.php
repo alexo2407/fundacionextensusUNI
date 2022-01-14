@@ -257,9 +257,10 @@
                                                     <div class="card-body text-center">
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/cris.jpeg" alt="card image"></p>
                                                         <h4 class="card-title">CPN. Cristian Dario Ortega Yubro</h4>
+                                                        <h4><strong>Cursos</strong></h4>
                                                         <div class="col-12 text-center">
                                                             <ul class="instructores text-center d-flex justify-content-center align-items-center">
-                                                                <li>Analítica Predicitiva y Machine Learning con<b>R, Python y Databricks</b></li>
+                                                                <li>Analítica Predicitiva y Machine Learning con <b>R, Python y Databricks</b></li>
                                                             </ul>
                                                         </div>
                                                         <div class="mt-5 mt-lg-5">
@@ -324,6 +325,7 @@
                                                     <div class="card-body text-center">
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/rodrigo.jpg" alt="card image"></p>
                                                         <h4 class="card-title">Rodrigo Anibal Esquivel Lavergne, PMP</h4>
+                                                        <h4><strong>Cursos</strong></h4>
                                                         <div class="col-12 text-center">
                                                             <ul class="instructores text-center d-flex justify-content-center align-items-center">
                                                                 <li>Analítica Predicitiva y Machine Learning con<b>R, Python y Databricks</b></li>
@@ -394,9 +396,10 @@
                                                     <div class="card-body text-center">
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/esteban.jpg" alt="card image"></p>
                                                         <h4 class="card-title">Ing. Oscar Esteban Pastor</h4>
+                                                        <h4><strong>Cursos</strong></h4>
                                                         <div class="col-12 text-center">
                                                             <ul class="instructores text-center d-flex justify-content-center align-items-center">
-                                                                <li>Gerencia con Analítica Avanzada para Toma de Decisiones</b></li>
+                                                                <li>Gerencia con <strong>Analítica Avanzada</strong> para Toma de Decisiones</b></li>
                                                             </ul>
                                                         </div>
                                                         <div class="mt-5 mt-lg-5">
@@ -463,6 +466,7 @@
                                                     <div class="card-body text-center">
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/enrique.jpg" alt="card image"></p>
                                                         <h4 class="card-title">Ing. Enrique Otero Espinosa</h4>
+                                                        <h4><strong>Cursos</strong></h4>
                                                         <div class="col-12 text-center">
                                                             <ul class="instructores text-center d-flex justify-content-center align-items-center">
                                                                 <li>Ingeniería de <b> Big Data</b></li>

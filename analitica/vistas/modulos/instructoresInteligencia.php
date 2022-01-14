@@ -27,6 +27,7 @@
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/denis.jpg" alt="card image"></p>
 
                                                         <h4 class="card-title">Lic. Denis Enrique Guido Rodríguez</h4>
+                                                        <h4><strong>Cursos</strong></h4>
 
                                                         <div class="col-12 text-center mt-4">
                                                             <ul class="instructores text-center d-flex flex-column justify-content-around align-items-center">
@@ -98,6 +99,7 @@
                                                         <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/jorgegut.jpeg" alt="card image"></p>
 
                                                         <h4 class="card-title">Lic. Jorge Luis Gutiérrez García, M.Sc.,</h4>
+                                                        <h4><strong>Cursos</strong></h4>
                                                         <div class="col-12 text-center mt-4">
                                                             <ul class="instructores text-center d-flex flex-column justify-content-around align-items-center">
                                                                 <li>Hacking<b> Ético y Ciberseguridad</b></li><br>
