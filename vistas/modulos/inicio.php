@@ -7,7 +7,6 @@
 
 </header>
 
-
 <!-- slider de imagenes -->
 
 <?php include "vistas/partes/slider.php"; ?>

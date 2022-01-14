@@ -23,6 +23,9 @@ class EnlacesModelo
             $ruta[0] == "instructoresInteligencia" ||
             $ruta[0] == "pagosInteligencia" ||
             $ruta[0] == "pagos" ||
+            $ruta[0] == "checkout" ||
+            $ruta[0] == "success" ||
+            $ruta[0] == "cancel" ||
             $ruta[0] == "contacto")
         {
             # agregamos la modúlo según el enlace obtenido del url

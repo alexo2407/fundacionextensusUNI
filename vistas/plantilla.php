@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="<?= RUTA_DOMAIN ?>vistas/css/style.css">
     <title>Inicio</title>
     <link rel="shortcut icon" href="<?= RUTA_DOMAIN ?>vistas/img/favicon.ico" />
-
+    <script src="https://js.stripe.com/v3/"></script>
 
 
 </head>
@@ -56,7 +56,7 @@
     <script src="<?= RUTA_DOMAIN ?>vistas/js/bootstrap.min.js"></script>
     <script src="<?= RUTA_DOMAIN ?>vistas/js/wow.min.js"></script>
     <script src="<?= RUTA_DOMAIN ?>vistas/js/elevator.js"></script>
-    <script src="https://js.stripe.com/v3/"></script>
+    <script src="<?= RUTA_DOMAIN ?>vistas/js/lottie.min.js"></script>
     <script src="<?= RUTA_DOMAIN ?>vistas/js/init.js"></script>
 
     <script>
