@@ -38,7 +38,7 @@
 
 <?php include "vistas/partes/footer.php"; ?>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
    //Redireccionamiento tras 5 segundos
-   setTimeout( function() { window.location.href = "<?=RUTA_DOMAIN?>"+'pagos'; }, 5000 );
-</script>
+   setTimeout( function() { window.location.href = "RUTA_DOMAIN"+'pagos'; }, 5000 );
+</script> -->
