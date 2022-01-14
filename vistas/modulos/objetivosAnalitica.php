@@ -66,22 +66,7 @@
                                                 <a href="<?= RUTA_DOMAIN ?>vistas/documents/Psg_IA.pdf" class="btn btn-primary  w-100" target="_blank">Descargar Pensum <i class="fa fa-download"></i></a>
                                             </div>
 
-                                            <h4 class="mt-4"> <strong>Campos de Aplicación</strong></h4>
-                                            <p class="text-justify mt-4">Al finalizar este curso especializado, el estudiante será capaz de:</p>
 
-                                            <ul class="list-group mt-4">
-                                                <li class="list-group-item">Finanzas / Contabilidad.</li>
-                                                <li class="list-group-item">Auditoría Interna / Control de Cumplimiento.</li>
-                                                <li class="list-group-item">Banca y Mercados Financieros.</li>
-                                                <li class="list-group-item">Gestión de Ventas, Compras e Inventario.</li>
-                                                <li class="list-group-item">Marketing Convencional y Digital.</li>
-                                                <li class="list-group-item">Análisis de Redes Sociales.</li>
-                                                <li class="list-group-item">Recursos Humanos.</li>
-                                                <li class="list-group-item">Cadena de Suministros.</li>
-                                                <li class="list-group-item">Distribución Retail y Mayorista.</li>
-                                                <li class="list-group-item">Modelación e Interpretación de Big Data para la toma de Decisiones
-                                                    Empresariales, entre otros.</li>
-                                            </ul>
 
                                         </div>
                                     </div>
@@ -299,6 +284,44 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-12">
+                            <h4 class="mt-4"> <strong>Campos de Aplicación</strong></h4>
+                            <p class="text-justify mt-4">Al finalizar este curso especializado, el estudiante será capaz de:</p>
+
+                            <ul class="list-group mt-4">
+                                <li class="list-group-item">Finanzas / Contabilidad.</li>
+                                <li class="list-group-item">Auditoría Interna / Control de Cumplimiento.</li>
+                                <li class="list-group-item">Banca y Mercados Financieros.</li>
+                                <li class="list-group-item">Gestión de Ventas, Compras e Inventario.</li>
+                                <li class="list-group-item">Marketing Convencional y Digital.</li>
+                                <li class="list-group-item">Análisis de Redes Sociales.</li>
+                                <li class="list-group-item">Recursos Humanos.</li>
+                                <li class="list-group-item">Cadena de Suministros.</li>
+                                <li class="list-group-item">Distribución Retail y Mayorista.</li>
+                                <li class="list-group-item">Modelación e Interpretación de Big Data para la toma de Decisiones
+                                    Empresariales, entre otros.</li>
+                            </ul>
+                        </div>
+                        <div class="col-12">
+                            <p class="text-justify mt-4">La Universidad Nacional de Ingeniería UNI, Nicaragua. Es miembro de la
+                                <strong>Confederación Superior
+                                    Universitaria Centroamericana y del Caribe – CSUCA</strong>. Organización regional de la
+                                sociedad
+                                centroamericana y del Caribe que integran a 20 universidades.
+                            </p>
+                            <p class="text-justify">www.csuca.org UNI también es miembro de la <strong> Asociación de
+                                    Universidades Iberoamericana de Postgrado –
+                                    AUIP.</strong> Organismo internacional no gubernamental reconocido por la UNESCO, dedicada
+                                al fomento de los
+                                estudios de postgrado y doctorado en Iberoamérica, que integra a 236 prestigiosas universidades.
+                                <a href="https://www.auip.org/es/" style="color: #062470;" target="_blank">www.auip.org.</a>
+                            </p>
+                            <p class="text-justify"> La Universidad Nacional de Ingeniería UNI, está acreditada como Dirección
+                                Regional para
+                                Centroamérica y Nicaragua de Asociación de <strong>Universidades Iberoamericana de Postgrado –
+                                    AUIP</strong>, a
+                                través de la Dirección de Estudios de Posgrado y Educación Continua</p>
+                        </div>
                     </div>
                 </section>
             </div>
@@ -308,7 +331,7 @@
                 <img src="<?= RUTA_DOMAIN ?>vistas/img/pp0.png" alt="" class="img-fluid">
                 <br />
                 <br />
-                <img src="<?= RUTA_DOMAIN ?>vistas/<?= RUTA_DOMAIN ?>vistas/img/pp1.png" alt="" class="img-fluid">
+                <img src="<?= RUTA_DOMAIN ?>vistas/img/pp1.png" alt="" class="img-fluid">
                 <br />
                 <br />
                 <img src="<?= RUTA_DOMAIN ?>vistas/img/pp2.png" alt="" class="img-fluid">
