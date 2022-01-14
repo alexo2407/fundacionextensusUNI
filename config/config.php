@@ -2,8 +2,8 @@
 
 /** Rutas principales  */
 
-define('RUTA_DOMAIN','//'.$_SERVER['SERVER_NAME'].'/');   
-//define('RUTA_DOMAIN','//'.$_SERVER['SERVER_NAME'].'/analitica'.'/');
+//define('RUTA_DOMAIN','//'.$_SERVER['SERVER_NAME'].'/');   
+define('RUTA_DOMAIN','//'.$_SERVER['SERVER_NAME'].'/analitica'.'/');
 
 
 $url= $_SERVER["SERVER_NAME"];
