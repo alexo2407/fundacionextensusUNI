@@ -1,4 +1,4 @@
-<header class="encabezado bg-primary" role="banner" id="menu">
+<header class="encabezado  bg-primary" role="banner" id="menu">
 
     <!-- Menu -->
 

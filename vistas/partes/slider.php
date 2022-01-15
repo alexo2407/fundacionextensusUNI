@@ -1,5 +1,5 @@
 
-<div id="slider" class="carousel slide carousel-fade mt-2" data-ride="carousel">
+<div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner" role="listbox">
         <ol class="carousel-indicators">
             <li data-target="#slider" data-slide-to="0" class="active"></li>

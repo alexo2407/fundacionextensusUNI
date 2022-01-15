@@ -25,6 +25,7 @@ body {
     padding: 0 0.5rem;
     background: transparent;
     color: #fff;
+    cursor: pointer;
 }
 
 .boton-menu:focus {
@@ -542,8 +543,21 @@ h2 {
     margin-top: 2rem;
 }
 
+.navbar {
+    background: #001042 !important;
+}
 
-/* .navbar-dark .navbar-nav .nav-link {
+.backmenu {
+    height: auto !important;
+}
+
+
+/* .encabezado {
+    height: 110px;
+    background: #001042 !important;
+} */
+
+.navbar-dark .navbar-nav .nav-link {
     padding: .8rem .8rem;
     color: white;
     font-size: rem;
@@ -552,13 +566,11 @@ h2 {
 .navbar-dark .navbar-nav .nav-link:hover {
     background: #062470;
     color: white;
-} */
+}
 
 
 /* Dropdown menu */
 
-
-/* 
 .dropdown-menu {
     position: absolute;
     top: 3.8rem;
@@ -574,7 +586,7 @@ h2 {
 .dropdown-menu .dropdown-item:hover {
     background-color: #1B3781;
     padding: 0 10 0 10;
-} */
+}
 
 
 /* ACORDION */
@@ -622,6 +634,53 @@ section {
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
     display: block;
+}
+
+#slider {
+    margin-top: 24% !important;
+}
+
+#principal {
+    margin-top: 12% !important;
+}
+
+@media ( min-width: 500px) {
+    #slider {
+        margin-top: 17% !important;
+    }
+}
+
+@media ( min-width: 700px) {
+    #slider {
+        margin-top: 15% !important;
+    }
+    #principal {
+        margin-top: 12% !important;
+    }
+}
+
+@media ( min-width: 800px) {
+    #slider {
+        margin-top: 13% !important;
+    }
+    #principal {
+        margin-top: 5% !important;
+    }
+}
+
+@media ( min-width: 1000px) {
+    #slider {
+        margin-top: 8% !important;
+    }
+    #principal {
+        margin-top: 5% !important;
+    }
+}
+
+@media ( min-width: 1200px) {
+    #slider {
+        margin-top: 5% !important;
+    }
 }
 
 @media ( min-width: 768px) {
@@ -696,9 +755,6 @@ section {
         font-size: 14px;
         font-weight: bold;
     }
-    /* #slider {
-        margin-top: 9rem;
-    } */
     #principal-contacto {
         margin-top: 2rem;
     }
@@ -729,15 +785,9 @@ section {
         color: white;
         height: 100%;
     }
-    /* #slider {
-        margin-top: 9rem;
-    } */
 }
 
 @media (max-width: 539px) {
-    /* #slider {
-        margin-top: 4rem;
-    } */
     #principal {
         margin-top: 1.5rem;
     }
