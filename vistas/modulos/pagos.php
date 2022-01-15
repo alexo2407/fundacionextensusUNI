@@ -13,6 +13,8 @@
         <div class="form-group">
           <label for="">PAGO</label>
           <form action="checkout" method="POST">
+            <!-- <input type="email" name="correo" class="form-control" required>
+            <small id="helpId" class="text-muted">Ingrese su correo</small><br><br> -->
             <input type="number" class="form-control" value="<?php if (isset($_POST['pago'])) {
                                                                 echo $_POST['pago'];
                                                               } else {

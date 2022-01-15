@@ -10,33 +10,38 @@ require 'vendor/autoload.php';
 header('Content-Type: application/json');
 
 $YOUR_DOMAIN =  URL_DOMAIN;
-$productName = "Pago uni mensualidad";
+$productName = "Pago (UNI-DEPEC)";
 // $priceID = STRIPE_PRICE_ID;
 $productID = STRIPE_PRODUCT_ID;
+$description = "Recuerde enviar el comprobante de la transacción al correo dirposgrado@pstg.uni.edu.ni para proceder a confirmar su Inscripción.";
 // Monto minimo $0.50 US  
-$productPrice = $_POST['quantity']; 
-$currency = "USD"; 
-$stripeAmount = round($_POST['quantity']*100, 2); 
+$productPrice = $_POST['quantity'];
+// $emailCustomer =  $_POST['correo'];
+$currency = "USD";
+$stripeAmount = round($_POST['quantity'] * 100, 2);
 
 // Detalles del producto
 
 $checkout_session = \Stripe\Checkout\Session::create([
   'line_items' => [[
-    'price_data' => [ 
-      'product_data' => [ 
-          'name' => $productName,
-          'metadata' => [ 
-            'pro_id' => $productID 
-        ] 
-      ], 
-      'unit_amount' => $stripeAmount, 
-      'currency' => $currency, 
-  ], 
+    'price_data' => [
+      'product_data' => [
+        'name' => $productName,
+        'metadata' => [
+          'pro_id' => $productID
+        ]
+      ],
+      'unit_amount' => $stripeAmount,
+      'currency' => $currency,
+    ],
     'quantity' => 1,
+    'description' => $description,
   ]],
+
+  // 'receipt_email' => $emailCustomer,
   'mode' => 'payment',
-    'success_url' => $YOUR_DOMAIN.'/success',
-    'cancel_url' => $YOUR_DOMAIN.'/cancel',
+  'success_url' => $YOUR_DOMAIN . '/success',
+  'cancel_url' => $YOUR_DOMAIN . '/cancel',
 ]);
 
 // var_dump($checkout_session->url);
@@ -44,7 +49,7 @@ $checkout_session = \Stripe\Checkout\Session::create([
 
 // header("HTTP/1.1 303 See Other");
 // header("Location:$checkout_session->url");
-//header('Location:'.$checkout_session->url,true,303);
-echo("<script>location.href = '".$checkout_session->url."';</script>");
+header('Location:' . $checkout_session->url, true, 303);
+//echo("<script>location.href = '".$checkout_session->url."';</script>");
 
 ob_end_flush();
