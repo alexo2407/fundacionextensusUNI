@@ -11,7 +11,7 @@ body {
 /* * menu */
 
 .bg-primary {
-    background: #001042 !important;
+    background: #1B3781 !important;
     transition: all 1s ease;
 }
 
@@ -543,9 +543,10 @@ h2 {
     margin-top: 2rem;
 }
 
-.navbar {
+
+/* .navbar {
     background: #001042 !important;
-}
+} */
 
 .backmenu {
     height: auto !important;
@@ -644,9 +645,44 @@ section {
     margin-top: 12% !important;
 }
 
+#info {
+    margin-top: 30% !important;
+}
+
+#cancel {
+    margin-top: 30% !important;
+}
+
+#instructores {
+    margin-top: 30% !important;
+}
+
+#pagosgenerales {
+    margin-top: 25% !important;
+}
+
+#pagos {
+    margin-top: 30% !important;
+}
+
 @media ( min-width: 500px) {
     #slider {
         margin-top: 17% !important;
+    }
+    #info {
+        margin-top: 20% !important;
+    }
+    #cancel {
+        margin-top: 20% !important;
+    }
+    #instructores {
+        margin-top: 20% !important;
+    }
+    #pagosgenerales {
+        margin-top: 20% !important;
+    }
+    #pagos {
+        margin-top: 20% !important;
     }
 }
 
@@ -657,6 +693,15 @@ section {
     #principal {
         margin-top: 12% !important;
     }
+    #instructores {
+        margin-top: 15% !important;
+    }
+    #pagosgenerales {
+        margin-top: 12% !important;
+    }
+    #pagos {
+        margin-top: 15% !important;
+    }
 }
 
 @media ( min-width: 800px) {
@@ -665,6 +710,9 @@ section {
     }
     #principal {
         margin-top: 5% !important;
+    }
+    #pagos {
+        margin-top: 15% !important;
     }
 }
 
@@ -675,10 +723,40 @@ section {
     #principal {
         margin-top: 5% !important;
     }
+    #cancel {
+        margin-top: 10% !important;
+    }
+    #info {
+        margin-top: 10% !important;
+    }
+    #instructores {
+        margin-top: 10% !important;
+    }
+    #pagosgenerales {
+        margin-top: 8% !important;
+    }
+    #pagos {
+        margin-top: 10% !important;
+    }
 }
 
 @media ( min-width: 1200px) {
     #slider {
+        margin-top: 5% !important;
+    }
+    #cancel {
+        margin-top: 5% !important;
+    }
+    #info {
+        margin-top: 5% !important;
+    }
+    #instructores {
+        margin-top: 5% !important;
+    }
+    #pagosgenerales {
+        margin-top: 5% !important;
+    }
+    #pagos {
         margin-top: 5% !important;
     }
 }

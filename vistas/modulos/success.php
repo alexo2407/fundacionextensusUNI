@@ -5,7 +5,7 @@
 
 </header>
 
-<main id="principal">
+<main id="info">
   <div class="container contenido">
     <div class="row text-center">
 

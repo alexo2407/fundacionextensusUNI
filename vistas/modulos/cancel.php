@@ -5,7 +5,7 @@
 
 </header>
 
-<main id="principal">
+<main id="cancel">
   <div class="container contenido">
     <div class="row text-center">
       

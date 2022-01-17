@@ -5,7 +5,7 @@
 
 </header>
 
-<main id="principal">
+<main id="pagos">
   <div class="container contenido">
     <div class="row">
       <div class="col-12 col-md-4">
