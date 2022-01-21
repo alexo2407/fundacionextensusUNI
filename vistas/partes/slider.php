@@ -16,7 +16,7 @@
             <img class="d-md-block d-lg-none w-100" src="vistas/img/pp0.png">
         </div>
         <div class="carousel-item">
-            <img class="d-none d-lg-block w-100 w-100" src="vistas/img/anavpbrp.png">
+            <img class="d-none d-lg-block w-100" src="vistas/img/anavpbrp.png">
             <img class="d-md-block d-lg-none w-100" src="vistas/img/pp1.png">
         </div>
         <div class="carousel-item ">

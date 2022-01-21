@@ -31,7 +31,7 @@
 
                                                         <div class="col-12 text-center mt-4">
                                                             <ul class="instructores text-center d-flex flex-column justify-content-around align-items-center">
-                                                                <li>Inteligencia de Negocios con SQL Server<b> aplicando Power BI</b></li><br>
+                                                                <li>Inteligencia de Negocios con SQL Server<b> aplicando Power BI</b></li>
                                                                 <li>Administración de Bases de Datos con<b> SQL Server 2019</b></li>
                                                             </ul>
                                                         </div>

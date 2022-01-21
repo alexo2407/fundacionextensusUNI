@@ -7,6 +7,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <meta property="og:site_name" content="Dirección de Estudios de Posgrados y
+                    Educación Continua (UNI-DEPEC)
+                    Managua, Nicaragua">
+<meta property="og:title" content="UNI-DEPEC" />
+<meta property="og:description" content="CURSOS DE ESPECIALIZACIÓN EN ANALÍTICA AVANZADA, INTELIGENCIA DE NEGOCIOS Y CIBERSEGURIDAD" />
+<meta property="og:image" itemprop="image" content="<?=URL_DOMAIN?>/vistas/img/thumbnailuni.png">
+<meta property="og:type" content="<?=URL_DOMAIN?>" />
+<meta property="og:updated_time" content="1440432930" />
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?= RUTA_DOMAIN ?>vistas/css/bootstrap.min.css">
 

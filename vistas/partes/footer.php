@@ -54,8 +54,8 @@
                     <i class="fa fa-whatsapp"></i><a target="_blank" href="https://wa.me/50586250986"> +505 8625 - 0986</a>
                     </li>
                 </ul>
-
             </div>
+            
             <div class=" col-12 copy text-center mt-4">
                 <p>© <?php echo date('Y'); ?> <?php echo ucwords('CURSOS DE ESPECIALIZACIÓN EN ANALÍTICA AVANZADA, INTELIGENCIA DE NEGOCIOS Y CIBERSEGURIDAD'); ?> </p>
                 <ul>

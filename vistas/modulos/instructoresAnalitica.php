@@ -34,8 +34,9 @@
                                                             <div class="container text-center">
                                                                 <h4><strong>Cursos</strong></h4>
                                                                 <div class="col-12 text-center">
-                                                                    <ul class="instructores text-center d-flex justify-content-center align-items-center">
+                                                                    <ul class="instructores text-center d-flex flex-column justify-content-around align-items-center">
                                                                         <li>Analítica Avanzada con <b>Power BI, R y Python</b></li>
+                                                                        <li>Ejemplo <b>Power BI, R y Python</b></li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
@@ -94,11 +95,13 @@
                                                     </div>
                                                 </div>
                                             </div>
-
+                                    <!-- Modal -->
                                         </div>
                                     </div>
                                 </div>
                                 <!-- ./Team member -->
+
+
                                 <!-- Team member -->
                                 <div class="col-12 col-md-12 mb-4">
                                     <div class="image-flip">

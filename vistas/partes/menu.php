@@ -30,7 +30,7 @@
             </ul>
         </li>
         <li class="nav-item dropdown">
-            <a href="index.html" class="nav-link dropdown-toggle" id="serlumen" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a href="#" class="nav-link dropdown-toggle" id="serlumen" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Inteligencia de Negocios
             </a>
             <ul class="dropdown-menu">
@@ -43,6 +43,9 @@
 
         <li class="nav-item">
             <a href="contacto">Contactanos</a>
+        </li>
+        <li class="nav-item">
+            <a href="proyectos">Proyectos</a>
         </li>
     </ul>
   </nav>
