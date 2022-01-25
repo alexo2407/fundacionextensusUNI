@@ -67,6 +67,7 @@
     <script src="<?= RUTA_DOMAIN ?>vistas/js/elevator.js"></script>
     <script src="<?= RUTA_DOMAIN ?>vistas/js/lottie.min.js"></script>
     <script src="<?= RUTA_DOMAIN ?>vistas/js/init.js"></script>
+    <script src="<?= RUTA_DOMAIN ?>vistas/js/validarPago.js"></script>
 
     <script>
         // Elevator script included on the page, already.
