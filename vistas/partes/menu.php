@@ -44,9 +44,6 @@
         <li class="nav-item">
             <a href="contacto">Contactanos</a>
         </li>
-        <li class="nav-item">
-            <a href="proyectos">Proyectos</a>
-        </li>
     </ul>
   </nav>
 </div>

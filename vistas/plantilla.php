@@ -67,7 +67,7 @@
     <script src="<?= RUTA_DOMAIN ?>vistas/js/elevator.js"></script>
     <script src="<?= RUTA_DOMAIN ?>vistas/js/lottie.min.js"></script>
     <script src="<?= RUTA_DOMAIN ?>vistas/js/init.js"></script>
-    <script src="<?= RUTA_DOMAIN ?>vistas/js/validarPago.js"></script>
+    <script src="<?= RUTA_DOMAIN ?>vistas/js/validar.js"></script>
 
     <script>
         // Elevator script included on the page, already.
@@ -80,6 +80,28 @@
                 duration: 1000 
             });
         }
+
+
+        // Disable form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Get the forms we want to add validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+
+
     </script>
 
 

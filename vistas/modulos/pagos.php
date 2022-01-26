@@ -12,16 +12,19 @@
 
         <div class="form-group">
           <label for="">PAGO</label>
-          <form action="checkout" method="POST">
-            <!-- <input type="email" name="correo" class="form-control" required>
-            <small id="helpId" class="text-muted">Ingrese su correo</small><br><br> -->
-            <input type="number" class="form-control" value="<?php if (isset($_POST['pago'])) {
+          <form action="checkout" method="POST" class="needs-validation" novalidate>
+            <div class="form-group">
+             
+              <input type="number" class="form-control"  value="<?php if (isset($_POST['pago'])) {
                                                                 echo $_POST['pago'];
                                                               } else {
                                                                 echo "00.00";
-                                                              } ?>" maxlength="256" name="quantity" data-name="quantity" min="1.00" step="0.01" id="input-stripe-quantity">
-            <small id="helpId" class="text-muted">Ingrese el monto</small><br>
-            <button type="submit" id="checkout-button" class="btn btn-primary  w-100 mt-4">Pagar <i class="fa fa-credit-card"></i></button>
+                                                              } ?>" maxlength="256" name="quantity" data-name="quantity" min="1.00" step="0.01" id="input-stripe-quantity" required>
+                                                              <small id="helpId" class="text-muted">Ingrese el monto</small><br>
+              <div class="valid-feedback">Correcto.</div>
+              <div class="invalid-feedback">Porfavor ingrese un monto correcto</div>
+            </div>
+            <button type="submit" class="btn btn-primary  w-100 mt-4" >Pagar <i class="fa fa-credit-card"></i></button>
           </form>
         </div>
 
