@@ -30,19 +30,10 @@
 
       </div>
       <div class="col-12 col-md-8">
-        <p>Este pago se podra realizar a través de transferencias bancarias o tarjeta de crédito
-          Para realizar el pago con tarjeta de crédito, una vez realizado su pago, deberá enviar el
+        <p>Este pago se podra realizar a través tarjetas de crédito/debito,
+          una vez realizado, deberá enviar el
           comprobante de la transacción al correo <a href="mailto:dirposgrado@pstg.uni.edu.ni" class="link-7">dirposgrado@pstg.uni.edu.ni</a> para proceder
           a confirmar su Inscripción.</p>
-        <ul class="list-group mt-4">
-          <li class="list-group-item"><strong>Cuenta:</strong> CAPACITACIONES EXTENSUS, LLC</li>
-          <li class="list-group-item"><strong>Direccion:</strong> 1795 Bonaventure Blvd, Weston, FL 33326
-          </li>
-          <li class="list-group-item"><strong>No. Cuenta:</strong> 898108779869</li>
-          <li class="list-group-item"><strong>ABA:</strong> 026009593</li>
-          <li class="list-group-item"><strong>Nombre del Banco:</strong> Bank of America</li>
-
-        </ul>
       </div>
     </div>
   </div>

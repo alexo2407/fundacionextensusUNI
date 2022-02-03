@@ -1,18 +1,12 @@
-<header class="encabezado  bg-primary" role="banner" id="menu">
+<!-- headers de la pagina -->
 
-    <!-- Menu -->
-
-    <?php include "vistas/partes/menu.php"; ?>
-    <!--cierre de barra-->
-
-</header>
-
+<?php include "vistas/partes/header.php"; ?>
 <!-- slider de imagenes -->
 
 <?php include "vistas/partes/slider.php"; ?>
 <!-- termina el slider -->
 
-<div class="container  section-1 mt-4">
+<div class="container  section-1 mt-4 contenido-principal">
     <h1 class=" heading text-center">CURSOS DE ESPECIALIZACIÓN EN ANALÍTICA AVANZADA, INTELIGENCIA DE NEGOCIOS Y CIBERSEGURIDAD</h1>
     <div class="row py-4">
         <div class="col-sm-3 text-center py-2">

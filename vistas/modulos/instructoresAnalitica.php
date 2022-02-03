@@ -1,13 +1,10 @@
-<header class="encabezado bg-primary" role="banner" id="menu">
+<!-- headers de la pagina -->
 
-    <!-- Menu -->
+<?php include "vistas/partes/header.php"; ?>
 
-    <?php include "vistas/partes/menu.php"; ?>
-    <!--cierre de barra-->
+<!-- headers de la pagina -->
 
-</header>
-
-<main id="instructores">
+<main id="instructores" class="contenido-principal">
     <div class="container contenido">
         <div class="row">
             <div class="contenido-1 col-md-8 ">
@@ -34,9 +31,8 @@
                                                             <div class="container text-center">
                                                                 <h4><strong>Cursos</strong></h4>
                                                                 <div class="col-12 text-center">
-                                                                    <ul class="instructores text-center d-flex flex-column justify-content-around align-items-center">
+                                                                    <ul class="instructores text-center d-flex justify-content-center align-items-center">
                                                                         <li>Analítica Avanzada con <b>Power BI, R y Python</b></li>
-                                                                        <li>Ejemplo <b>Power BI, R y Python</b></li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
@@ -95,13 +91,11 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                    <!-- Modal -->
+
                                         </div>
                                     </div>
                                 </div>
                                 <!-- ./Team member -->
-
-
                                 <!-- Team member -->
                                 <div class="col-12 col-md-12 mb-4">
                                     <div class="image-flip">
@@ -559,10 +553,13 @@
                 <br />
                 <img src="<?= RUTA_DOMAIN ?>vistas/img/pp4.png" alt="" class="img-fluid">
                 <br />
+                <br />
+                <img src="<?= RUTA_DOMAIN ?>vistas/img/pp5.png" alt="" class="img-fluid">
+                <br />
                 <div class=" mt-4">
                     <p class="text-justify"><strong>Si desea mayor información favor contactar: </strong></p>
                     <ul>
-                        <li><a target="_blank" href="https://bit.ly/3jMrIjL" class="link-7">
+                        <li><a target="_blank" href="http://sisposgrado.uni.edu.ni/depec/evt.xhtml?insc=MjAxMDA=" class="link-7">
                                 Formulario de Información</a>
                         </li>
                         <li><a href="tel:+50522781457">+505 2278 - 1457</a> / <a href="tel:+50522705612"> +505 2270

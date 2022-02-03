@@ -638,7 +638,7 @@ section {
 }
 
 #slider {
-    margin-top: 24% !important;
+    margin-top: 32% !important;
 }
 
 #principal {
@@ -667,7 +667,7 @@ section {
 
 @media ( min-width: 500px) {
     #slider {
-        margin-top: 17% !important;
+        margin-top: 18% !important;
     }
     #info {
         margin-top: 20% !important;
@@ -1075,14 +1075,14 @@ section .section-title {
 }
 
 
-/* pie de pagina */
-
 .pie-pagina {
     margin-top: 2rem;
     background: #062470;
     color: #fff;
     background-size: cover;
-    height: auto;
+    height: auto !important;
+    position: absolute;
+    width: 100%;
 }
 
 .pie-pagina .parrafo h2 {

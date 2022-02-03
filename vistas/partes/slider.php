@@ -10,13 +10,16 @@
             <li data-target="#slider" data-slide-to="5"></li>
             <li data-target="#slider" data-slide-to="6"></li>
             <li data-target="#slider" data-slide-to="7"></li>
+            <li data-target="#slider" data-slide-to="8"></li>
+            <li data-target="#slider" data-slide-to="9"></li>
+            <li data-target="#slider" data-slide-to="10"></li>
         </ol>
         <div class="carousel-item active">
             <img class="d-none d-lg-block w-100" src="vistas/img/psgia.png">
             <img class="d-md-block d-lg-none w-100" src="vistas/img/pp0.png">
         </div>
         <div class="carousel-item">
-            <img class="d-none d-lg-block w-100" src="vistas/img/anavpbrp.png">
+            <img class="d-none d-lg-block w-100 w-100" src="vistas/img/anavpbrp.png">
             <img class="d-md-block d-lg-none w-100" src="vistas/img/pp1.png">
         </div>
         <div class="carousel-item ">
@@ -31,17 +34,29 @@
             <img class="d-none d-lg-block w-100" src="vistas/img/ibd.png">
             <img class="d-md-block d-lg-none w-100" src="vistas/img/pp4.png">
         </div>
+        <div class="carousel-item ">
+            <img class="d-none d-lg-block w-100" src="vistas/img/ia.png">
+            <img class="d-md-block d-lg-none w-100" src="vistas/img/pp5.png">
+        </div>
         <div class="carousel-item">
             <img class="d-none d-lg-block w-100" src="vistas/img/adsql.png">
-            <img class="d-md-block d-lg-none w-100" src="vistas/img/pp7.png">
+            <img class="d-md-block d-lg-none w-100" src="vistas/img/pp6.png">
         </div>
         <div class="carousel-item ">
             <img class="d-none d-lg-block w-100" src="vistas/img/bi1.png">
-            <img class="d-md-block d-lg-none w-100" src="vistas/img/pp6.png">
+            <img class="d-md-block d-lg-none w-100" src="vistas/img/pp7.png">
+        </div>
+        <div class="carousel-item ">
+            <img class="d-none d-lg-block w-100" src="vistas/img/cs.png">
+            <img class="d-md-block d-lg-none w-100" src="vistas/img/pp8.png">
+        </div>
+        <div class="carousel-item">
+            <img class="d-none d-lg-block w-100" src="vistas/img/cmi.png">
+            <img class="d-md-block d-lg-none w-100" src="vistas/img/pp9.png">
         </div>
         <div class="carousel-item">
             <img class="d-none d-lg-block w-100" src="vistas/img/hecs.png">
-            <img class="d-md-block d-lg-none w-100" src="vistas/img/pp8.png">
+            <img class="d-md-block d-lg-none w-100" src="vistas/img/pp10.png">
         </div>
     </div>
     <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">

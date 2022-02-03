@@ -1,11 +1,10 @@
-<header class="encabezado bg-primary" role="banner" id="menu">
+<!-- headers de la pagina -->
 
-    <?php include "vistas/partes/menu.php"; ?>
-    <!--cierre de barra-->
+<?php include "vistas/partes/header.php"; ?>
 
-</header>
+<!-- headers de la pagina -->
 
-<main id="instructores">
+<main id="instructores" class="contenido-principal">
     <div class="container contenido">
         <div class="row">
             <div class="contenido-1 col-md-8 ">
@@ -31,8 +30,9 @@
 
                                                         <div class="col-12 text-center mt-4">
                                                             <ul class="instructores text-center d-flex flex-column justify-content-around align-items-center">
-                                                                <li>Inteligencia de Negocios con SQL Server<b> aplicando Power BI</b></li>
-                                                                <li>Administración de Bases de Datos con<b> SQL Server 2019</b></li>
+                                                                <li>Inteligencia de Negocios con SQL Server<b> aplicando Power BI</b></li><br>
+                                                                <li>Administración de Bases de Datos con<b> SQL Server 2019</b></li><br>
+                                                                <li>Desarrollo Profesional de Aplicaciones con <b>C#, DevExpress y SQL Server</b></li>
                                                             </ul>
                                                         </div>
                                                         <div class="mt-5 mt-lg-5">
@@ -157,9 +157,76 @@
                                         </div>
                                     </div>
                                 </div>
+                                
+                                <!-- Team member -->
+                                <div class="col-12 col-md-12 mb-4">
+                                    <div class="image-flip">
+                                        <div class="mainflip flip-0">
+                                            <div class="frontside">
+                                                <div class="card">
+                                                    <div class="card-body text-center">
+                                                        <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/alvaro.jpg" alt="card image"></p>
 
+                                                        <h4 class="card-title">Lic. Álvaro José Méndez Mendiola</h4>
+                                                        <h4><strong>Cursos</strong></h4>
+                                                        <div class="col-12 text-center mt-4">
+                                                            <ul class="instructores text-center d-flex flex-column justify-content-around align-items-center">
+                                                                <li>Especialización en <b>Cuadro de Mando Integral (CMI) con Excel</b></li><br>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="mt-4 mt-lg-5">
+                                                            <a href="https://www.linkedin.com/in/alvaro-mendez-mendiola-5ab6b238/" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalAlvaro">VER PERFIL</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
 
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="modalAlvaro" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalCenteredLabel">Perfil del instructor</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
 
+                                                            <div class="backside">
+                                                                <div class="card">
+                                                                    <div class="card-body text-center">
+                                                                        <p class="text-center"><img class="img-fluid" src="<?= RUTA_DOMAIN ?>vistas/img/alvaro.jpg" alt="card image"></p>
+                                                                        <h4 class="card-title">Lic. Álvaro José Méndez Mendiola</h4>
+                                                                        <p class="card-text">Con más de 14 años de experiencia en Finanzas, Contabilidad y Auditoría.<br><br>
+                                                                        Ha tenido la oportunidad de laborar en entidades con giros Económicos diversos: sector Comercio, Servicio, Turismo, 
+                                                                        Hospitalidad, Agricultura, Construcción y Sector Gobierno.</p>
+                                                                        <div class="container text-center">
+                                                                            <h5><strong>Redes Sociales:</strong></h5>
+                                                                            <ul class="list-inline">
+                                                                                <li class="list-inline-item">
+                                                                                    <a class="social-icon text-xs-center" href="https://www.linkedin.com/in/alvaro-mendez-mendiola-5ab6b238/" target="_blank">
+                                                                                        <i class="fa fa-linkedin"></i>
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
                     </section>
@@ -182,10 +249,16 @@
                 <br />
                 <img src="<?= RUTA_DOMAIN ?>vistas/img/pp8.png" alt="" class="img-fluid">
                 <br />
+                <br />
+                <img src="<?= RUTA_DOMAIN ?>vistas/img/pp9.png" alt="" class="img-fluid">
+                <br />
+                <br />
+                <img src="<?= RUTA_DOMAIN ?>vistas/img/pp10.png" alt="" class="img-fluid">
+                <br />
                 <div class=" mt-4">
                     <p class="text-justify"><strong>Si desea mayor información favor contactar: </strong></p>
                     <ul>
-                        <li><a target="_blank" href="https://bit.ly/3jMrIjL" class="link-7">
+                        <li><a target="_blank" href="http://sisposgrado.uni.edu.ni/depec/evt.xhtml?insc=MjAxMDA=" class="link-7">
                                 Formulario de Información</a>
                         </li>
                         <li><a href="tel:+50522781457">+505 2278 - 1457</a> / <a href="tel:+50522705612"> +505 2270

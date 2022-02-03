@@ -6,7 +6,7 @@
     </div>
 </footer> -->
 
-<footer class="pie-pagina wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" role="contentinfo">
+<footer class="pie-pagina">
 
     <div class="container">
         <div class="row justify-content-lg-between aling-items-center text-light">
@@ -22,7 +22,7 @@
                 <h2>Contactos</h2>
                 <ul>
                     <li >
-                        <i class="fa fa-link"></i> <a target="_blank" href="https://bit.ly/3jMrIjL" class="link-7">
+                        <i class="fa fa-link"></i> <a target="_blank" href="http://sisposgrado.uni.edu.ni/depec/evt.xhtml?insc=MjAxMDA=" class="link-7">
                             Formulario de Información</a>
                     </li>
                     <li >
@@ -53,9 +53,16 @@
                     <li >
                     <i class="fa fa-whatsapp"></i><a target="_blank" href="https://wa.me/50586250986"> +505 8625 - 0986</a>
                     </li>
+                    
+                    <li>
+                    <i class="fa fa-mobile"></i><a href="tel:+50588667609">  +505 8866 - 7609 (Tigo)</a>
+                    </li>
+                    <li >
+                    <i class="fa fa-whatsapp"></i><a target="_blank" href="https://wa.me/50588667609"> +505 8866 - 7609</a>
+                    </li>
                 </ul>
+
             </div>
-            
             <div class=" col-12 copy text-center mt-4">
                 <p>© <?php echo date('Y'); ?> <?php echo ucwords('CURSOS DE ESPECIALIZACIÓN EN ANALÍTICA AVANZADA, INTELIGENCIA DE NEGOCIOS Y CIBERSEGURIDAD'); ?> </p>
                 <ul>

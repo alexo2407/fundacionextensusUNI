@@ -1,7 +1,8 @@
-<header class="encabezado bg-primary" role="banner" id="menu">
-    <?php include "vistas/partes/menu.php"; ?>
+<!-- headers de la pagina -->
 
-</header>
+<?php include "vistas/partes/header.php"; ?>
+
+<!-- headers de la pagina -->
 
 <main id="principal">
     <div class="container contenido">
@@ -67,7 +68,7 @@
                                                 <li class="list-group-item">Conocimientos básicos de Power BI Básico.</li>
                                             </ul>
                                             <div class="col mb-4">
-                                                <a href="<?= RUTA_DOMAIN ?>vistas/documents/I_N_SQL_A_PBI.pdf" class="btn btn-primary  w-100" target="_blank">Descargar Pensum <i class="fa fa-download"></i></a>
+                                                <a href="https://sisposgrado.uni.edu.ni/depec/evt.xhtml?insc=MjAxMDA=" class="btn btn-primary  w-100" target="_blank">Descargar Pensum <i class="fa fa-download"></i></a>
                                             </div>
 
                                         </div>
@@ -116,20 +117,64 @@
                                                 <li class="list-group-item">Conocimientos de Transact SQL.</li>
                                             </ul>
                                             <div class="col mb-4">
-                                                <a href="<?= RUTA_DOMAIN ?>vistas/documents/Admon_SQL.pdf" class="btn btn-primary  w-100" target="_blank">Descargar Pensum <i class="fa fa-download"></i></a>
+                                                <a href="https://sisposgrado.uni.edu.ni/depec/evt.xhtml?insc=MjAxMDA=" class="btn btn-primary  w-100" target="_blank">Descargar Pensum <i class="fa fa-download"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                
                                 <div class="card">
                                     <div class="card-header" id="headingThree">
                                         <h5 class="mb-0">
                                             <button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                <i class="fa fa-plus main"></i><i class="fa fa-angle-double-right mr-3"></i>Hacking Ético y Ciberseguridad.
+                                                <i class="fa fa-plus main"></i><i class="fa fa-angle-double-right mr-3"></i>Desarrollo Profesional de Aplicaciones Con C#, DevExpress y SQL Server.
                                             </button>
                                         </h5>
                                     </div>
                                     <div id="collapseThree" class="collapse fade" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p class="text-justify mt-4">
+                                                Este curso está dirigido a profesionales que desarrollan aplicaciones que ofrecen contenido de bases de datos SQL Server, él curso enseñara a realizar 
+                                                aplicaciones profesionales con C# utilizando el IDE Visual Studio y el control de tercero DevExpress, se utilizara Programación Orientada a Objetos (POO). 
+                                                Todos estos tópicos serán puestos en práctica en el desarrollo de una pequeña Aplicación.
+                                            </p>
+
+                                            <h4 class="mt-4"><strong>Objetivos</strong></h4>
+
+                                            <ul class="list-group mt-4">
+                                                <li class="list-group-item">Identificar la sintaxis del lenguaje C#.NET.</li>
+                                                <li class="list-group-item">Crear aplicaciones usando controles comunes en C# .NET.</li>
+                                                <li class="list-group-item">Desarrollar aplicaciones utilizando programación Orientada a Objetos.</li>
+                                                <li class="list-group-item">Desarrollar aplicaciones que conectan a la base de datos SQL Server.</li>
+                                                <li class="list-group-item">Publicar Proyecto para su distribución.</li>
+                                                <li class="list-group-item">Desarrollar aplicaciones utilizando controles DevExpress.</li>
+                                            </ul>
+                                            <h4 class="mt-4"><strong>Requerimientos</strong></h4>
+
+                                            <p class="text-justify mt-4">Para ser candidato para este curso, los estudiantes deben de cumplir
+                                                con los siguientes requisitos:
+                                            </p>
+                                            <ul class="list-group mt-4 mb-4">
+                                                <li class="list-group-item">Manejo de lógica de Programación (Algoritmos).</li>
+                                                <li class="list-group-item">Conocimiento de estructuras de control básicas (por ejemplo, bucles y ramificaciones).</li>
+                                                <li class="list-group-item">Experiencia con SQL Server (bases de datos relacionales).</li>
+                                            </ul>
+                                            <div class="col mb-4">
+                                                <a href="https://sisposgrado.uni.edu.ni/depec/evt.xhtml?insc=MjAxMDA=" class="btn btn-primary  w-100" target="_blank">Descargar Pensum <i class="fa fa-download"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="card">
+                                    <div class="card-header" id="headingFour">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                <i class="fa fa-plus main"></i><i class="fa fa-angle-double-right mr-3"></i>Hacking Ético y Ciberseguridad.
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseFour" class="collapse fade" aria-labelledby="headingFour" data-parent="#accordionExample">
                                         <div class="card-body">
                                             <p class="text-justify mt-4">Es importante mencionar que todos los días hay amenazas nuevas y emergentes en el mundo cibernético
                                                 que se dirigen a cada segundo a diferentes empresas, estas amenazas son un riesgo para la información y la continuidad del negocio,
@@ -169,7 +214,55 @@
                                                     todos compartimos esos conocimientos y enriquecemos nuestros conocimientos.</li>
                                             </ul>
                                             <div class="col mb-4">
-                                                <a href="<?= RUTA_DOMAIN ?>vistas/documents/H_E_C_S.pdf" class="btn btn-primary  w-100" target="_blank">Descargar Pensum <i class="fa fa-download"></i></a>
+                                                <a href="https://sisposgrado.uni.edu.ni/depec/evt.xhtml?insc=MjAxMDA=" class="btn btn-primary  w-100" target="_blank">Descargar Pensum <i class="fa fa-download"></i></a>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                                <div class="card">
+                                    <div class="card-header" id="headingFive">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                <i class="fa fa-plus main"></i><i class="fa fa-angle-double-right mr-3"></i>Especialización en Cuadro de Mando Integral (CMI) con Excel.
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseFive" class="collapse fade" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p class="text-justify mt-4">Este curso está dirigido a todos los profesionales que deseen implementar Excel para la toma de decisiones,
+                                            análisis de datos y presentación de resultados. Quienes se encargarán de diseñar y administrar los Tableros de Control y creación de nuevos 
+                                            KPI para alinear la estrategia hacia el cumplimiento de metas en sus entidades.
+                                            </p>
+
+                                            <h4 class="mt-4"><strong>Objetivos</strong></h4>
+
+                                            <ul class="list-group mt-4">
+                                                <li class="list-group-item">Identificar la estructura del Cuadro de Mando Integral CMI e Indicadores.</li>
+                                                <li class="list-group-item">Citar el marco de referencia COSO IC y COSO ERM.</li>
+                                                <li class="list-group-item">Reconocer el Sistemas de Gestión de Riegos.</li>
+                                                <li class="list-group-item">Transformar la visión de su organización en objetivos medibles.</li>
+                                                <li class="list-group-item">Alineara la estrategia hacia el cumplimiento de metas.</li>
+                                                <li class="list-group-item">Conozca los complementos y herramientas: DataTable, DataModel, KPI, PowerQuery, PowerPivot y VBA.</li>
+                                                <li class="list-group-item">Convierta rápidamente cantidades masivas de datos en información significativa mediante complementos Excel.</li>
+                                                <li class="list-group-item">Crear tableros de mando alineados con los indicadores clave al desempeño KPI.</li>
+                                                <li class="list-group-item">Mejorar el conocimiento del ambiente de desarrollo para Excel con VBA.</li>
+                                            </ul>
+
+                                            <h4 class="mt-4"><strong>Requerimientos</strong></h4>
+                                            <p class="text-justify mt-4">Para ser candidato para este curso, los estudiantes deben de cumplir
+                                                con los siguientes requisitos:
+                                            </p>
+                                            <ul class="list-group mt-4 mb-4">
+                                                <li class="list-group-item">Conocimiento Básico Ambiente Windows para PC.</li>
+                                                <li class="list-group-item">Conocimiento Intermedio de Excel 2019-2021.</li>
+                                                <li class="list-group-item">Conocimiento Básico de Estrategia Empresarial.</li>
+                                            </ul>
+                                            <div class="col mb-4">
+                                                <a href="https://sisposgrado.uni.edu.ni/depec/evt.xhtml?insc=MjAxMDA=" class="btn btn-primary  w-100" target="_blank">Descargar Pensum <i class="fa fa-download"></i></a>
                                             </div>
 
 
@@ -231,10 +324,16 @@
                 <br />
                 <img src="<?= RUTA_DOMAIN ?>vistas/img/pp8.png" alt="" class="img-fluid">
                 <br />
+                <br />
+                <img src="<?= RUTA_DOMAIN ?>vistas/img/pp9.png" alt="" class="img-fluid">
+                <br />
+                <br />
+                <img src="<?= RUTA_DOMAIN ?>vistas/img/pp10.png" alt="" class="img-fluid">
+                <br />
                 <div class=" mt-4">
                     <p class="text-justify"><strong>Si desea mayor información favor contactar: </strong></p>
                     <ul>
-                        <li><a target="_blank" href="https://bit.ly/3jMrIjL" class="link-7">
+                        <li><a target="_blank" href="http://sisposgrado.uni.edu.ni/depec/evt.xhtml?insc=MjAxMDA=" class="link-7">
                                 Formulario de Información</a>
                         </li>
                         <li><a href="tel:+50522781457">+505 2278 - 1457</a> / <a href="tel:+50522705612"> +505 2270

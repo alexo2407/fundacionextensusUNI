@@ -30,7 +30,7 @@
             </ul>
         </li>
         <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" id="serlumen" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a href="index.html" class="nav-link dropdown-toggle" id="serlumen" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Inteligencia de Negocios
             </a>
             <ul class="dropdown-menu">

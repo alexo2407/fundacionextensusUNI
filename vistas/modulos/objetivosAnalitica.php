@@ -1,10 +1,8 @@
-<header class="encabezado bg-primary" role="banner" id="menu">
-    <!-- Menu -->
+<!-- headers de la pagina -->
 
-    <?php include "vistas/partes/menu.php"; ?>
-    <!--cierre de barra-->
+<?php include "vistas/partes/header.php"; ?>
 
-</header>
+<!-- headers de la pagina -->
 
 
 <main id="principal">
@@ -63,7 +61,7 @@
                                                 <li class="list-group-item">Conocimientos de Análisis de Datos.</li>
                                             </ul>
                                             <div class="col mb-4">
-                                                <a href="<?= RUTA_DOMAIN ?>vistas/documents/Psg_IA.pdf" class="btn btn-primary  w-100" target="_blank">Descargar Pensum <i class="fa fa-download"></i></a>
+                                                <a href="https://sisposgrado.uni.edu.ni/depec/evt.xhtml?insc=MjAxMDA=" class="btn btn-primary  w-100" target="_blank">Descargar Pensum <i class="fa fa-download"></i></a>
                                             </div>
 
 
@@ -123,7 +121,7 @@
                                                     de DAX, edición de gráficas y filtros.</li>
                                             </ul>
                                             <div class="col mb-4">
-                                                <a href="<?= RUTA_DOMAIN ?>vistas/documents/A_A_BI_R_Python.pdf" class="btn btn-primary w-100" target="_blank" style="color: #fffff;">Descargar Pensum <i class="fa fa-download"></i></a>
+                                                <a href="https://sisposgrado.uni.edu.ni/depec/evt.xhtml?insc=MjAxMDA=" class="btn btn-primary w-100" target="_blank" style="color: #fffff;">Descargar Pensum <i class="fa fa-download"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -170,7 +168,7 @@
                                                 <li class="list-group-item">Familiaridad con Análisis de Datos (Excel, Power BI, Tableau, etc…).</li>
                                             </ul>
                                             <div class="col mb-4">
-                                                <a href="<?= RUTA_DOMAIN ?>vistas/documents/A_P_R_Py_DB.pdf" class="btn btn-primary  w-100" target="_blank">Descargar Pensum <i class="fa fa-download"></i></a>
+                                                <a href="https://sisposgrado.uni.edu.ni/depec/evt.xhtml?insc=MjAxMDA=" class="btn btn-primary  w-100" target="_blank">Descargar Pensum <i class="fa fa-download"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -226,7 +224,7 @@
                                                 <li class="list-group-item">Fundamentos de Analítica Avanzada de Datos.</li>
                                             </ul>
                                             <div class="col mb-4">
-                                                <a href="<?= RUTA_DOMAIN ?>vistas/documents/G_A_T_D.pdf" class="btn btn-primary  w-100" target="_blank">Descargar Pensum <i class="fa fa-download"></i></a>
+                                                <a href="https://sisposgrado.uni.edu.ni/depec/evt.xhtml?insc=MjAxMDA=" class="btn btn-primary  w-100" target="_blank">Descargar Pensum <i class="fa fa-download"></i></a>
                                             </div>
 
                                         </div>
@@ -276,7 +274,7 @@
                                                 <li class="list-group-item">Sólidos conocimientos en Analítica Avanzada.</li>
                                             </ul>
                                             <div class="col mb-4">
-                                                <a href="<?= RUTA_DOMAIN ?>vistas/documents/I_B_D_H_Sp.pdf" class="btn btn-primary  w-100" target="_blank">Descargar Pensum <i class="fa fa-download"></i> </a>
+                                                <a href="https://sisposgrado.uni.edu.ni/depec/evt.xhtml?insc=MjAxMDA=" class="btn btn-primary  w-100" target="_blank">Descargar Pensum <i class="fa fa-download"></i> </a>
                                             </div>
 
                                         </div>
@@ -342,10 +340,13 @@
                 <br />
                 <img src="<?= RUTA_DOMAIN ?>vistas/img/pp4.png" alt="" class="img-fluid">
                 <br />
+                <br />
+                <img src="<?= RUTA_DOMAIN ?>vistas/img/pp5.png" alt="" class="img-fluid">
+                <br />
                 <div class=" mt-4">
                     <p class="text-justify"><strong>Si desea mayor información favor contactar: </strong></p>
                     <ul>
-                        <li><a target="_blank" href="https://bit.ly/3jMrIjL" class="link-7">
+                        <li><a target="_blank" href="http://sisposgrado.uni.edu.ni/depec/evt.xhtml?insc=MjAxMDA=" class="link-7">
                                 Formulario de Información</a>
                         </li>
                         <li><a href="tel:+50522781457">+505 2278 - 1457</a> / <a href="tel:+50522705612"> +505 2270

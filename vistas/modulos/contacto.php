@@ -1,17 +1,15 @@
-<header class="encabezado bg-primary" role="banner" id="menu">
+<!-- headers de la pagina -->
 
-    <!-- Menu -->
-
-    <?php include "vistas/partes/menu.php"; ?>
-    <!--cierre de barra-->
+<?php include "vistas/partes/header.php"; ?>
 
 
-</header>
 
-
-<div class="col-12">
+<main class="contenido-principal">
+    <div class="col-12">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d487.5905853868269!2d-86.27033707744792!3d12.130980441327116!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4c8d43dee7a94068!2sUNI%20Posgrado!5e0!3m2!1ses-419!2sni!4v1641329942625!5m2!1ses-419!2sni" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
+
+</main>
 
 <!-- <main id="principal-contacto">
 

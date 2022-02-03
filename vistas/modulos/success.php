@@ -1,9 +1,8 @@
-<header class="encabezado bg-primary" role="banner" id="menu">
+<!-- headers de la pagina -->
 
-  <?php include "vistas/partes/menu.php"; ?>
-  <!--cierre de barra-->
+<?php include "vistas/partes/header.php"; ?>
 
-</header>
+<!-- headers de la pagina -->
 
 <main id="info">
   <div class="container contenido">

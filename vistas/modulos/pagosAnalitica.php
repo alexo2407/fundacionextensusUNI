@@ -1,9 +1,8 @@
-<header class="encabezado bg-primary" role="banner" id="menu">
+<!-- headers de la pagina -->
 
-    <?php include "vistas/partes/menu.php"; ?>
-    <!--cierre de barra-->
+<?php include "vistas/partes/header.php"; ?>
 
-</header>
+<!-- headers de la pagina -->
 
 <main id="pagosgenerales">
     <div class="container contenido">
@@ -131,6 +130,13 @@
 
                 1. Pago por cancelación anticipada: 10 % de descuento, adicional a la exoneración del 60 %: <br><strong>USD
                     287.64</strong><br><br>
+                    
+                <form action="pagos" method="POST" target="_blank">
+                    <div class="col mb-4">
+                        <input type="hidden" name="pago" value="287.64">
+                        <button type="submit" class="btn btn-primary  w-100" target="_blank">Realizar Pago USD 287.64</a>
+                    </div>
+                </form>
 
                 2. Pago en 3 cuotas:<br><br>
 
@@ -138,11 +144,48 @@
                 Finalizando la tercera semana: <strong>USD 100.00</strong><br>
                 Al finalizar el curso: <strong>USD 100.00</strong>
                 </p><br>
+                <form action="pagos" method="POST" target="_blank">
+                    <div class="col mb-4">
+                        <input type="hidden" name="pago" value="199.60">
+                        <button type="submit" class="btn btn-primary  w-100" target="_blank">Realizar Cuota</a>
+                    </div>
+                </form>
+                
+                <strong>Facilidades de pago para Modulo 5: Inteligencia Artificial con Tensorflow y PyTorch</strong><br><br>
+
+                1. Pago Único: <strong>USD 600.00</strong><br><br>
+                <form action="pagos" method="POST" target="_blank">
+                    <div class="col mb-4">
+                        <input type="hidden" name="pago" value="600.00">
+                        <button type="submit" class="btn btn-primary  w-100" target="_blank">Realizar Pago USD 600.00</a>
+                    </div>
+                </form>
+
+                2. Pago en 3 cuotas:<br><br>
+
+                Al momento de la Inscripción: <strong>USD 200.00</strong><br>
+                Finalizando la tercera semana: <strong>USD 200.00</strong><br>
+                Al finalizar el curso: <strong>USD 200.00</strong>
+                </p><br>
+                
+                <form action="pagos" method="POST" target="_blank">
+                    <div class="col mb-4">
+                        <input type="hidden" name="pago" value="200.00">
+                        <button type="submit" class="btn btn-primary  w-100" target="_blank">Realizar Cuota</a>
+                    </div>
+                </form>
 
                 <strong>Pago adicional para Certificaciones Internacionales del Curso Gerencia con Analítica Avanzada
                     para toma de Decisiones (opcional):</strong><br><br>
                 1. Pago Único: <strong>USD
                     150.00</strong><br><br>
+                    
+                <form action="pagos" method="POST" target="_blank">
+                    <div class="col mb-4">
+                        <input type="hidden" name="pago" value="150.00">
+                        <button type="submit" class="btn btn-primary  w-100" target="_blank">Realizar Pago USD 150.00</a>
+                    </div>
+                </form>
 
                 <!-- <h2> Formas de Pago</h2><br>
                 <p>Los pagos se realizaran a través de transferencias bancarias o tarjeta de crédito
@@ -164,19 +207,10 @@
                     <div class="card-body">
                         <h4 class="card-title">Formas de Pago</h4>
                         <p class="card-text">
-                        <p>Los pagos se realizaran a través de transferencias bancarias o tarjeta de crédito
-                            Para realizar el pago con tarjeta de crédito, <a href="pagos" target="_blank">pulse aquí</a>, una vez realizado su pago, deberá enviar el
-                            comprobante de la transacción al correo <a href="mailto:dirposgrado@pstg.uni.edu.ni" class="link-7">dirposgrado@pstg.uni.edu.ni</a> para proceder
-                            a confirmar su Inscripción.</p>
-                        <ul class="mt-4">
-                            <li><strong>Cuenta:</strong> CAPACITACIONES EXTENSUS, LLC</li>
-                            <li><strong>Direccion:</strong> 1795 Bonaventure Blvd, Weston, FL 33326
-                            </li>
-                            <li><strong>No. Cuenta:</strong> 898108779869</li>
-                            <li><strong>ABA:</strong> 026009593</li>
-                            <li><strong>Nombre del Banco:</strong> Bank of America</li>
-
-                        </ul>
+                        <p>Este pago se podra realizar a través de tarjetas de crédito/debito <a target="blank_" href="https://pstg-online.edu.ni/analitica/pagos" class="link-7">pulsando aqui</a>,
+          una vez realizado, deberá enviar el
+          comprobante de la transacción al correo <a href="mailto:dirposgrado@pstg.uni.edu.ni" class="link-7">dirposgrado@pstg.uni.edu.ni</a> para proceder
+          a confirmar su Inscripción.</p>
                     </div>
                 </div>
 
@@ -201,7 +235,7 @@
                 <div class=" mt-4">
                     <p class="text-justify"><strong>Si desea mayor información favor contactar: </strong></p>
                     <ul>
-                        <li><a target="_blank" href="https://bit.ly/3jMrIjL" class="link-7">
+                        <li><a target="_blank" href="http://sisposgrado.uni.edu.ni/depec/evt.xhtml?insc=MjAxMDA=" class="link-7">
                                 Formulario de Información</a>
                         </li>
                         <li><a href="tel:+50522781457">+505 2278 - 1457</a> / <a href="tel:+50522705612"> +505 2270
